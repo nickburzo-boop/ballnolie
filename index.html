@@ -10,10 +10,11 @@
   <script>
     async function loadGames() {
       try {
-      const res = await fetch("https://api.allorigins.win/raw?url=https://site.api.espn.com/apis/v2/sports/basketball/nba/scoreboard");
-      const data = await res.json();
-
-        const games = data.events;
+      const res = await fetch(
+      "https://r.jina.ai/http://site.api.espn.com/apis/v2/sports/basketball/nba/scoreboard"
+       );
+      const text = await res.text();
+      const data = JSON.parse(text);
         let output = "";
 
         games.slice(0, 5).forEach(game => {
