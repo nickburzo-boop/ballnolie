@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NBA Scores</title>
+</head>
+<body>
+  <h1>NBA Scores</h1>
+  <div id="scores">Loading...</div>
+
+  <script>
+    async function getScores() {
+      const res = await fetch("https://www.balldontlie.io/api/v1/games");
+      const data = await res.json();
+
+      const games = data.data.slice(0, 5); // limit to 5 games
+
+      let output = "";
+
+      games.forEach(game => {
+        output += `
+          <p>
+            ${game.home_team.full_name} ${game.home_team_score}
+            vs
+            ${game.visitor_team.full_name} ${game.visitor_team_score}
+          </p>
+        `;
+      });
+
+      document.getElementById("scores").innerHTML = output;
+    }
+
+    getScores();
+  </script>
+</body>
+</html>
