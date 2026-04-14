@@ -11,7 +11,7 @@
     async function loadGames() {
       try {
       const res = await fetch("https://api.allorigins.win/raw?url=https://site.api.espn.com/apis/v2/sports/basketball/nba/scoreboard");
-const data = await res.json();
+      const data = await res.json();
 
         const games = data.events;
         let output = "";
