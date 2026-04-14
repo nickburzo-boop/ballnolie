@@ -2,7 +2,18 @@
 <html>
 <head>
   <title>NBA Scores</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    p {
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+    }
+  </style>
 </head>
+
 <body>
   <h1>NBA Scores</h1>
   <div id="scores">Loading...</div>
@@ -10,32 +21,44 @@
   <script>
     async function loadGames() {
       try {
-      const res = await fetch(
-      "https://r.jina.ai/http://site.api.espn.com/apis/v2/sports/basketball/nba/scoreboard"
-       );
-      const text = await res.text();
-      const data = JSON.parse(text);
+        const res = await fetch(
+          "https://r.jina.ai/http://site.api.espn.com/apis/v2/sports/basketball/nba/scoreboard"
+        );
+
+        if (!res.ok) {
+          throw new Error("Network response failed");
+        }
+
+        const text = await res.text();
+        const data = JSON.parse(text);
+
+        const games = data.events || [];
         let output = "";
 
-        games.slice(0, 5).forEach(game => {
-          const comp = game.competitions[0];
-          const home = comp.competitors[0];
-          const away = comp.competitors[1];
+        if (games.length === 0) {
+          output = "No games found right now.";
+        } else {
+          games.slice(0, 5).forEach(game => {
+            const comp = game.competitions[0];
+            const home = comp.competitors[0];
+            const away = comp.competitors[1];
 
-          output += `
-            <p>
-              ${home.team.displayName} ${home.score ?? "-"}
-              vs
-              ${away.team.displayName} ${away.score ?? "-"}
-            </p>
-          `;
-        });
+            output += `
+              <p>
+                ${home.team.displayName} ${home.score ?? "-"}
+                vs
+                ${away.team.displayName} ${away.score ?? "-"}
+              </p>
+            `;
+          });
+        }
 
         document.getElementById("scores").innerHTML = output;
 
-      } catch (e) {
-        document.getElementById("scores").innerHTML = "Failed to load data";
-        console.log(e);
+      } catch (err) {
+        console.error(err);
+        document.getElementById("scores").innerHTML =
+          "Failed to load data (check console)";
       }
     }
 
