@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NBA Scores</title>
+</head>
+<body>
+  <h1>NBA Scores</h1>
+  <div id="scores">Loading...</div>
+
+  <script>
+    async function loadGames() {
+      try {
+        const res = await fetch("https://site.api.espn.com/apis/v2/sports/basketball/nba/scoreboard");
+        const data = await res.json();
+
+        const games = data.events;
+        let output = "";
+
+        games.slice(0, 5).forEach(game => {
+          const comp = game.competitions[0];
+          const home = comp.competitors[0];
+          const away = comp.competitors[1];
+
+          output += `
+            <p>
+              ${home.team.displayName} ${home.score ?? "-"}
+              vs
+              ${away.team.displayName} ${away.score ?? "-"}
+            </p>
+          `;
+        });
+
+        document.getElementById("scores").innerHTML = output;
+
+      } catch (e) {
+        document.getElementById("scores").innerHTML = "Failed to load data";
+        console.log(e);
+      }
+    }
+
+    loadGames();
+  </script>
+</body>
+</html>
