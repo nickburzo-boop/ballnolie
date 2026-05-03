@@ -1,4 +1,95 @@
 {
-  "updatedAt": "2026-05-03T14:32:10.105Z",
-  "games": []
+  "updatedAt": "2026-05-03T14:34:01.733Z",
+  "games": [
+    {
+      "league": "UFC Fight Night: Della Maddalena vs. Prates",
+      "status": "Finished",
+      "startTime": "2026-05-02T00:00:00+00:00",
+      "homeTeam": "Robert Bryczek",
+      "awayTeam": "Cam Rowston",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Della Maddalena vs. Prates",
+      "status": "Cancelled",
+      "startTime": "2026-05-02T03:00:00+00:00",
+      "homeTeam": "Sean Sharaf",
+      "awayTeam": "Tai Tuivasa",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Della Maddalena vs. Prates",
+      "status": "Finished",
+      "startTime": "2026-05-02T08:00:00+00:00",
+      "homeTeam": "Quillan Salkilld",
+      "awayTeam": "Beneil Dariush",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Della Maddalena vs. Prates",
+      "status": "Finished",
+      "startTime": "2026-05-02T08:00:00+00:00",
+      "homeTeam": "Gerald Meerschaert",
+      "awayTeam": "Jacob Malkoun",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Della Maddalena vs. Prates",
+      "status": "Finished",
+      "startTime": "2026-05-02T08:00:00+00:00",
+      "homeTeam": "Brando Pericic",
+      "awayTeam": "Shamil Gaziev",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Della Maddalena vs. Prates",
+      "status": "Finished",
+      "startTime": "2026-05-02T08:00:00+00:00",
+      "homeTeam": "Vince Morales",
+      "awayTeam": "Colby Thicknesse",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Della Maddalena vs. Prates",
+      "status": "Finished",
+      "startTime": "2026-05-02T08:00:00+00:00",
+      "homeTeam": "Kody Steele",
+      "awayTeam": "Dom Mar Fan",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Della Maddalena vs. Prates",
+      "status": "Finished",
+      "startTime": "2026-05-02T08:00:00+00:00",
+      "homeTeam": "Wes Schultz",
+      "awayTeam": "Ben Johnston",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Della Maddalena vs. Prates",
+      "status": "Finished",
+      "startTime": "2026-05-02T08:20:00+00:00",
+      "homeTeam": "Themba Gorimbo",
+      "awayTeam": "Jonathan Micallef",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Della Maddalena vs. Prates",
+      "status": "Finished",
+      "startTime": "2026-05-02T10:30:00+00:00",
+      "homeTeam": "Kevin Christian",
+      "awayTeam": "Junior Tafa",
+      "homeScore": "L",
+      "awayScore": "W"
+    }
+  ]
 }

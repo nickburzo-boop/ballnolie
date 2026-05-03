@@ -21,6 +21,37 @@ async function fetchJson(url, headers = {}) {
   return JSON.parse(text);
 }
 
+function responseCount(payload) {
+  const response = payload?.response || payload?.events || payload?.games || payload?.data || [];
+  return Array.isArray(response) ? response.length : Object.keys(response || {}).length;
+}
+
+function isoDateDaysAgo(daysAgo) {
+  const date = new Date();
+  date.setUTCDate(date.getUTCDate() - daysAgo);
+  return date.toISOString().slice(0, 10);
+}
+
+async function fetchSportsJson(url, headers = {}) {
+  const payload = await fetchJson(url, headers);
+
+  if (!url || responseCount(payload) > 0 || !/[?&]date=\d{4}-\d{2}-\d{2}/.test(url)) {
+    return payload;
+  }
+
+  for (let daysAgo = 1; daysAgo <= 10; daysAgo += 1) {
+    const fallbackUrl = url.replace(/([?&]date=)\d{4}-\d{2}-\d{2}/, `$1${isoDateDaysAgo(daysAgo)}`);
+    const fallbackPayload = await fetchJson(fallbackUrl, headers);
+
+    if (responseCount(fallbackPayload) > 0) {
+      fallbackPayload.fallbackDate = isoDateDaysAgo(daysAgo);
+      return fallbackPayload;
+    }
+  }
+
+  return payload;
+}
+
 function normalizeCrypto(payload) {
   if (!payload) {
     return {
@@ -87,15 +118,17 @@ function normalizeSports(payload) {
       const competitors = competition.competitors || [];
       const home = competitors.find((team) => team.homeAway === "home") || game.home || game.teams?.home || competitors[0] || {};
       const away = competitors.find((team) => team.homeAway === "away") || game.away || game.teams?.away || competitors[1] || {};
+      const firstFighter = game.fighters?.first || {};
+      const secondFighter = game.fighters?.second || {};
 
       return {
-        league: game.league?.name || game.league || game.sport_key || "Sports",
+        league: game.slug || game.league?.name || game.league || game.sport_key || "Sports",
         status: game.status?.type?.description || game.status?.long || game.status || game.strStatus || "",
-        startTime: game.date || game.commence_time || game.fixture?.date || game.gameTime || "",
-        homeTeam: home.team?.displayName || home.team?.name || home.name || home.displayName || game.home_team || game.teams?.home?.name || "",
-        awayTeam: away.team?.displayName || away.team?.name || away.name || away.displayName || game.away_team || game.teams?.away?.name || "",
-        homeScore: home.score ?? game.scores?.home ?? game.goals?.home ?? game.home_score ?? "",
-        awayScore: away.score ?? game.scores?.away ?? game.goals?.away ?? game.away_score ?? ""
+        startTime: game.date || game.commence_time || game.fixture?.date || game.gameTime || game.fallbackDate || "",
+        homeTeam: home.team?.displayName || home.team?.name || home.name || home.displayName || firstFighter.name || game.home_team || game.teams?.home?.name || "",
+        awayTeam: away.team?.displayName || away.team?.name || away.name || away.displayName || secondFighter.name || game.away_team || game.teams?.away?.name || "",
+        homeScore: firstFighter.winner === true ? "W" : firstFighter.winner === false ? "L" : home.score ?? game.scores?.home ?? game.goals?.home ?? game.home_score ?? "",
+        awayScore: secondFighter.winner === true ? "W" : secondFighter.winner === false ? "L" : away.score ?? game.scores?.away ?? game.goals?.away ?? game.away_score ?? ""
       };
     });
 
@@ -120,7 +153,7 @@ async function main() {
     authHeaders("CRYPTO", "X-CMC_PRO_API_KEY")
   );
 
-  const sportsPayload = await fetchJson(
+  const sportsPayload = await fetchSportsJson(
     env("SPORTS_API_URL"),
     authHeaders("SPORTS", "x-apisports-key")
   );
