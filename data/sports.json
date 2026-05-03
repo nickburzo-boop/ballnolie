@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-03T21:11:24.067Z",
+  "updatedAt": "2026-05-03T22:08:16.013Z",
   "games": [
     {
       "league": "UFC Fight Night: Della Maddalena vs. Prates",
@@ -97,8 +97,8 @@
       "startTime": "2026-05-03T19:30:00.000Z",
       "homeTeam": "Detroit Pistons",
       "awayTeam": "Orlando Magic",
-      "homeScore": 66,
-      "awayScore": 51
+      "homeScore": 110,
+      "awayScore": 92
     }
   ]
 }
