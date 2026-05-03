@@ -28,6 +28,9 @@ jobs:
           SPORTS_API_URL: ${{ secrets.SPORTS_API_URL }}
           SPORTS_API_KEY: ${{ secrets.SPORTS_API_KEY }}
           SPORTS_API_HEADER: ${{ secrets.SPORTS_API_HEADER }}
+          NBA_API_URL: ${{ secrets.NBA_API_URL }}
+          NBA_API_KEY: ${{ secrets.NBA_API_KEY }}
+          NBA_API_HEADER: ${{ secrets.NBA_API_HEADER }}
         run: node scripts/fetch-data.mjs
 
       - name: Commit data updates

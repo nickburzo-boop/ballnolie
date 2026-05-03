@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-03T14:34:25.723Z",
+  "updatedAt": "2026-05-03T14:36:46.439Z",
   "games": [
     {
       "league": "UFC Fight Night: Della Maddalena vs. Prates",
@@ -65,31 +65,40 @@
       "awayScore": "L"
     },
     {
-      "league": "UFC Fight Night: Della Maddalena vs. Prates",
-      "status": "Finished",
-      "startTime": "2026-05-02T08:00:00+00:00",
-      "homeTeam": "Wes Schultz",
-      "awayTeam": "Ben Johnston",
-      "homeScore": "W",
-      "awayScore": "L"
+      "league": "NBA",
+      "status": "Scheduled",
+      "startTime": "2026-05-03T23:30:00.000Z",
+      "homeTeam": "Cleveland Cavaliers",
+      "awayTeam": "Toronto Raptors",
+      "homeScore": "",
+      "awayScore": ""
     },
     {
-      "league": "UFC Fight Night: Della Maddalena vs. Prates",
-      "status": "Finished",
-      "startTime": "2026-05-02T08:20:00+00:00",
-      "homeTeam": "Themba Gorimbo",
-      "awayTeam": "Jonathan Micallef",
-      "homeScore": "L",
-      "awayScore": "W"
+      "league": "NBA",
+      "status": "Scheduled",
+      "startTime": "2026-05-03T04:00:00.000Z",
+      "homeTeam": "Los Angeles Lakers",
+      "awayTeam": "Houston Rockets",
+      "homeScore": "",
+      "awayScore": ""
     },
     {
-      "league": "UFC Fight Night: Della Maddalena vs. Prates",
-      "status": "Finished",
-      "startTime": "2026-05-02T10:30:00+00:00",
-      "homeTeam": "Kevin Christian",
-      "awayTeam": "Junior Tafa",
-      "homeScore": "L",
-      "awayScore": "W"
+      "league": "NBA",
+      "status": "Scheduled",
+      "startTime": "2026-05-03T04:00:00.000Z",
+      "homeTeam": "Oklahoma City Thunder",
+      "awayTeam": "Phoenix Suns",
+      "homeScore": "",
+      "awayScore": ""
+    },
+    {
+      "league": "NBA",
+      "status": "Scheduled",
+      "startTime": "2026-05-03T19:30:00.000Z",
+      "homeTeam": "Detroit Pistons",
+      "awayTeam": "Orlando Magic",
+      "homeScore": "",
+      "awayScore": ""
     }
   ]
 }

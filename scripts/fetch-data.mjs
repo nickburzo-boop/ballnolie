@@ -95,42 +95,47 @@ function normalizeCrypto(payload) {
   };
 }
 
-function normalizeSports(payload) {
-  if (!payload) {
+function normalizeSports(...payloads) {
+  const activePayloads = payloads.filter(Boolean);
+
+  if (!activePayloads.length) {
     return {
       updatedAt: new Date().toISOString(),
-      message: "SPORTS_API_URL is not configured.",
+      message: "No sports API URLs are configured.",
       games: []
     };
   }
 
-  const rawGames =
+  const games = activePayloads.flatMap((payload) => {
+    const rawGames =
     payload.events ||
     payload.response ||
     payload.games ||
     payload.data ||
     [];
 
-  const games = (Array.isArray(rawGames) ? rawGames : Object.values(rawGames))
-    .slice(0, 10)
+    return (Array.isArray(rawGames) ? rawGames : Object.values(rawGames))
+    .slice(0, 7)
     .map((game) => {
       const competition = game.competitions?.[0] || {};
       const competitors = competition.competitors || [];
       const home = competitors.find((team) => team.homeAway === "home") || game.home || game.teams?.home || competitors[0] || {};
       const away = competitors.find((team) => team.homeAway === "away") || game.away || game.teams?.away || competitors[1] || {};
+      const visitors = game.teams?.visitors || {};
       const firstFighter = game.fighters?.first || {};
       const secondFighter = game.fighters?.second || {};
 
       return {
-        league: game.slug || game.league?.name || game.league || game.sport_key || "Sports",
+        league: payload.feedName === "NBA" ? "NBA" : game.slug || game.league?.name || game.league || game.sport_key || payload.feedName || "Sports",
         status: game.status?.type?.description || game.status?.long || game.status || game.strStatus || "",
-        startTime: game.date || game.commence_time || game.fixture?.date || game.gameTime || game.fallbackDate || "",
+        startTime: game.date?.start || game.date || game.commence_time || game.fixture?.date || game.gameTime || game.fallbackDate || "",
         homeTeam: home.team?.displayName || home.team?.name || home.name || home.displayName || firstFighter.name || game.home_team || game.teams?.home?.name || "",
-        awayTeam: away.team?.displayName || away.team?.name || away.name || away.displayName || secondFighter.name || game.away_team || game.teams?.away?.name || "",
-        homeScore: firstFighter.winner === true ? "W" : firstFighter.winner === false ? "L" : home.score ?? game.scores?.home ?? game.goals?.home ?? game.home_score ?? "",
-        awayScore: secondFighter.winner === true ? "W" : secondFighter.winner === false ? "L" : away.score ?? game.scores?.away ?? game.goals?.away ?? game.away_score ?? ""
+        awayTeam: away.team?.displayName || away.team?.name || away.name || away.displayName || secondFighter.name || game.away_team || visitors.name || "",
+        homeScore: firstFighter.winner === true ? "W" : firstFighter.winner === false ? "L" : home.score ?? game.scores?.home?.points ?? game.goals?.home ?? game.home_score ?? "",
+        awayScore: secondFighter.winner === true ? "W" : secondFighter.winner === false ? "L" : away.score ?? game.scores?.visitors?.points ?? game.scores?.away?.points ?? game.goals?.away ?? game.away_score ?? ""
       };
     });
+  });
 
   return {
     updatedAt: new Date().toISOString(),
@@ -158,8 +163,21 @@ async function main() {
     authHeaders("SPORTS", "x-apisports-key")
   );
 
+  if (sportsPayload) {
+    sportsPayload.feedName = "MMA";
+  }
+
+  const nbaPayload = await fetchSportsJson(
+    env("NBA_API_URL"),
+    authHeaders("NBA", "x-apisports-key")
+  );
+
+  if (nbaPayload) {
+    nbaPayload.feedName = "NBA";
+  }
+
   await writeFile(new URL("crypto.json", outputDir), `${JSON.stringify(normalizeCrypto(cryptoPayload), null, 2)}\n`);
-  await writeFile(new URL("sports.json", outputDir), `${JSON.stringify(normalizeSports(sportsPayload), null, 2)}\n`);
+  await writeFile(new URL("sports.json", outputDir), `${JSON.stringify(normalizeSports(sportsPayload, nbaPayload), null, 2)}\n`);
 }
 
 main().catch((error) => {
