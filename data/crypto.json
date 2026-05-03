@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-03T14:34:01.731Z",
+  "updatedAt": "2026-05-03T14:34:25.722Z",
   "assets": [
     {
       "name": "Bitcoin",
@@ -34,8 +34,8 @@
     {
       "name": "USDC",
       "symbol": "USDC",
-      "priceUsd": 0.9998425055878903,
-      "change24h": 0.00848236
+      "priceUsd": 0.9997817009894349,
+      "change24h": 0.00107906
     },
     {
       "name": "Solana",
