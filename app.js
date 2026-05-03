@@ -128,12 +128,13 @@ async function supabaseRequest(path, options = {}) {
     }
   });
 
+  const text = await response.text();
+
   if (!response.ok) {
-    const text = await response.text();
     throw new Error(text || `Supabase returned ${response.status}`);
   }
 
-  return response.status === 204 ? null : response.json();
+  return text ? JSON.parse(text) : null;
 }
 
 function renderForumPosts(posts) {
