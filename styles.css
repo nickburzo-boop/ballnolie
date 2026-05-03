@@ -1,15 +1,17 @@
 :root {
   color-scheme: dark;
-  --bg: #111315;
-  --panel: #1d2227;
-  --panel-strong: #242a30;
-  --text: #f5f0e8;
-  --muted: #aeb7bd;
-  --line: #394149;
-  --green: #62d982;
-  --red: #ff746d;
-  --gold: #f1c65b;
-  --blue: #70b8ff;
+  --felt: #073d35;
+  --felt-deep: #061f1d;
+  --panel: #16120d;
+  --panel-strong: #211910;
+  --text: #fff4dc;
+  --muted: #cdbf9d;
+  --line: #6c5124;
+  --green: #42df8b;
+  --red: #ff4f5e;
+  --gold: #f4c95d;
+  --blue: #84d7ff;
+  --chip: #b1132e;
 }
 
 * {
@@ -20,16 +22,31 @@ body {
   margin: 0;
   min-height: 100vh;
   background:
-    radial-gradient(circle at top left, rgba(98, 217, 130, 0.16), transparent 28rem),
-    linear-gradient(135deg, #111315 0%, #181b1f 46%, #101418 100%);
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    radial-gradient(circle at 18% 8%, rgba(244, 201, 93, 0.2), transparent 22rem),
+    radial-gradient(circle at 84% 20%, rgba(177, 19, 46, 0.22), transparent 24rem),
+    linear-gradient(135deg, var(--felt) 0%, var(--felt-deep) 58%, #120d09 100%);
+  background-size: 42px 42px, 42px 42px, auto, auto, auto;
   color: var(--text);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Spline Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body::before {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+  background:
+    repeating-linear-gradient(115deg, transparent 0 12px, rgba(255, 244, 220, 0.025) 12px 13px),
+    radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.48) 100%);
 }
 
 .shell {
-  width: min(1120px, calc(100% - 32px));
+  position: relative;
+  width: min(1140px, calc(100% - 32px));
   margin: 0 auto;
-  padding: 32px 0;
+  padding: 34px 0;
 }
 
 .topbar,
@@ -44,6 +61,13 @@ body {
 
 .topbar {
   margin-bottom: 24px;
+  padding: 18px 20px;
+  border: 1px solid rgba(244, 201, 93, 0.5);
+  border-radius: 8px;
+  background:
+    linear-gradient(90deg, rgba(177, 19, 46, 0.24), transparent 30%, rgba(244, 201, 93, 0.16)),
+    rgba(18, 13, 9, 0.78);
+  box-shadow: 0 18px 70px rgba(0, 0, 0, 0.34), inset 0 0 0 1px rgba(255, 244, 220, 0.08);
 }
 
 h1,
@@ -53,9 +77,14 @@ p {
 }
 
 h1 {
-  font-size: clamp(2.25rem, 8vw, 5.5rem);
-  line-height: 0.95;
+  max-width: 880px;
+  color: var(--gold);
+  font-family: "Rye", Georgia, serif;
+  font-size: clamp(2.05rem, 7vw, 5.3rem);
+  font-weight: 400;
+  line-height: 0.98;
   letter-spacing: 0;
+  text-shadow: 0 2px 0 #4a2509, 0 0 28px rgba(244, 201, 93, 0.28);
 }
 
 h2 {
@@ -78,6 +107,14 @@ h2 {
   font-size: 0.9rem;
 }
 
+.updated {
+  padding: 8px 11px;
+  border: 1px solid rgba(244, 201, 93, 0.36);
+  border-radius: 999px;
+  background: rgba(7, 61, 53, 0.82);
+  white-space: nowrap;
+}
+
 .grid {
   display: grid;
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.25fr);
@@ -87,20 +124,32 @@ h2 {
 .panel {
   min-width: 0;
   padding: 20px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(244, 201, 93, 0.45);
   border-radius: 8px;
-  background: rgba(29, 34, 39, 0.88);
-  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.24);
+  background:
+    linear-gradient(180deg, rgba(255, 244, 220, 0.05), transparent 38%),
+    rgba(22, 18, 13, 0.92);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.32), inset 0 0 0 1px rgba(255, 244, 220, 0.06);
+}
+
+.market-panel {
+  border-top: 4px solid var(--green);
+}
+
+.sports-panel {
+  border-top: 4px solid var(--chip);
 }
 
 .panel-heading {
   margin-bottom: 18px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(244, 201, 93, 0.22);
 }
 
 .status {
   flex: 0 0 auto;
   padding: 6px 10px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(244, 201, 93, 0.42);
   border-radius: 999px;
   background: var(--panel-strong);
 }
@@ -114,9 +163,16 @@ h2 {
 .match,
 .empty {
   padding: 14px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(244, 201, 93, 0.24);
   border-radius: 8px;
-  background: rgba(36, 42, 48, 0.74);
+  background:
+    linear-gradient(90deg, rgba(244, 201, 93, 0.08), transparent 42%),
+    rgba(33, 25, 16, 0.86);
+}
+
+.asset:hover,
+.match:hover {
+  border-color: rgba(244, 201, 93, 0.62);
 }
 
 .name,
@@ -133,6 +189,7 @@ h2 {
 }
 
 .price {
+  color: var(--gold);
   font-size: 1.35rem;
 }
 
@@ -173,7 +230,7 @@ h2 {
 
 @media (max-width: 760px) {
   .shell {
-    width: min(100% - 24px, 1120px);
+    width: min(100% - 24px, 1140px);
     padding: 22px 0;
   }
 
@@ -188,5 +245,9 @@ h2 {
   .updated,
   .status {
     justify-self: start;
+  }
+
+  .updated {
+    white-space: normal;
   }
 }
