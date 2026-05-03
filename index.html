@@ -42,6 +42,30 @@
         <div id="sports-list" class="stack"></div>
       </article>
     </section>
+
+    <section class="forum-panel panel" aria-label="House forum">
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">House Forum</p>
+          <h2>Post From The Rail</h2>
+        </div>
+        <span id="forum-status" class="status">Connecting</span>
+      </div>
+
+      <form id="forum-form" class="forum-form">
+        <label>
+          <span>Name</span>
+          <input id="forum-name" name="name" type="text" maxlength="32" autocomplete="nickname" placeholder="Table name" required>
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea id="forum-message" name="message" maxlength="420" rows="3" placeholder="Drop a pick, note, or hot take" required></textarea>
+        </label>
+        <button type="submit">Post</button>
+      </form>
+
+      <div id="forum-list" class="forum-list"></div>
+    </section>
   </main>
 
   <script src="app.js"></script>

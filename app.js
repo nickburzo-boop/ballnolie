@@ -14,6 +14,15 @@ const sportsList = document.querySelector("#sports-list");
 const cryptoStatus = document.querySelector("#crypto-status");
 const sportsStatus = document.querySelector("#sports-status");
 const updated = document.querySelector("#updated");
+const forumForm = document.querySelector("#forum-form");
+const forumName = document.querySelector("#forum-name");
+const forumMessage = document.querySelector("#forum-message");
+const forumList = document.querySelector("#forum-list");
+const forumStatus = document.querySelector("#forum-status");
+
+const supabaseUrl = "https://negyqhvbbfoekrnxlmrk.supabase.co";
+const supabaseKey = "sb_publishable_EuQa1qmL66Rqbifu7gfQqw_Ttc2D5GK";
+const forumEndpoint = `${supabaseUrl}/rest/v1/forum_posts`;
 
 function setStatus(element, text) {
   element.textContent = text;
@@ -21,6 +30,15 @@ function setStatus(element, text) {
 
 function showEmpty(target, text) {
   target.innerHTML = `<p class="empty">${text}</p>`;
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
 }
 
 function renderUpdatedAt(records) {
@@ -99,6 +117,83 @@ async function readJson(path) {
   return response.json();
 }
 
+async function supabaseRequest(path, options = {}) {
+  const response = await fetch(`${forumEndpoint}${path}`, {
+    ...options,
+    headers: {
+      apikey: supabaseKey,
+      Authorization: `Bearer ${supabaseKey}`,
+      "Content-Type": "application/json",
+      ...options.headers
+    }
+  });
+
+  if (!response.ok) {
+    const text = await response.text();
+    throw new Error(text || `Supabase returned ${response.status}`);
+  }
+
+  return response.status === 204 ? null : response.json();
+}
+
+function renderForumPosts(posts) {
+  if (!posts.length) {
+    showEmpty(forumList, "No posts yet. Be first at the table.");
+    return;
+  }
+
+  forumList.innerHTML = posts.map((post) => `
+    <article class="forum-post">
+      <div class="row-main">
+        <p class="name">${escapeHtml(post.name)}</p>
+        <p class="meta">${new Date(post.created_at).toLocaleString([], { dateStyle: "medium", timeStyle: "short" })}</p>
+      </div>
+      <p class="forum-message">${escapeHtml(post.message)}</p>
+    </article>
+  `).join("");
+}
+
+async function loadForumPosts() {
+  try {
+    setStatus(forumStatus, "Loading");
+    const posts = await supabaseRequest("?select=id,name,message,created_at&order=created_at.desc&limit=20");
+    renderForumPosts(posts);
+    setStatus(forumStatus, `${posts.length} posts`);
+  } catch (error) {
+    console.error(error);
+    setStatus(forumStatus, "Setup needed");
+    showEmpty(forumList, "Create the Supabase forum_posts table to open the forum.");
+  }
+}
+
+async function submitForumPost(event) {
+  event.preventDefault();
+
+  const name = forumName.value.trim();
+  const message = forumMessage.value.trim();
+
+  if (!name || !message) {
+    return;
+  }
+
+  try {
+    setStatus(forumStatus, "Posting");
+    await supabaseRequest("", {
+      method: "POST",
+      headers: {
+        Prefer: "return=minimal"
+      },
+      body: JSON.stringify({ name, message })
+    });
+    localStorage.setItem("forumName", name);
+    forumMessage.value = "";
+    await loadForumPosts();
+  } catch (error) {
+    console.error(error);
+    setStatus(forumStatus, "Post failed");
+  }
+}
+
 async function boot() {
   try {
     const [crypto, sports] = await Promise.all([
@@ -119,4 +214,8 @@ async function boot() {
   }
 }
 
+forumName.value = localStorage.getItem("forumName") || "";
+forumForm.addEventListener("submit", submitForumPost);
+
 boot();
+loadForumPosts();

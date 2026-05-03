@@ -140,6 +140,11 @@ h2 {
   border-top: 4px solid var(--chip);
 }
 
+.forum-panel {
+  margin-top: 18px;
+  border-top: 4px solid var(--gold);
+}
+
 .panel-heading {
   margin-bottom: 18px;
   padding-bottom: 14px;
@@ -161,6 +166,7 @@ h2 {
 
 .asset,
 .match,
+.forum-post,
 .empty {
   padding: 14px;
   border: 1px solid rgba(244, 201, 93, 0.24);
@@ -171,7 +177,8 @@ h2 {
 }
 
 .asset:hover,
-.match:hover {
+.match:hover,
+.forum-post:hover {
   border-color: rgba(244, 201, 93, 0.62);
 }
 
@@ -228,6 +235,75 @@ h2 {
   color: var(--muted);
 }
 
+.forum-form {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.35fr) minmax(240px, 1fr) auto;
+  gap: 12px;
+  align-items: end;
+  margin-bottom: 16px;
+}
+
+.forum-form label {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.forum-form input,
+.forum-form textarea {
+  width: 100%;
+  border: 1px solid rgba(244, 201, 93, 0.34);
+  border-radius: 8px;
+  background: rgba(7, 31, 29, 0.84);
+  color: var(--text);
+  font: inherit;
+  outline: none;
+  padding: 10px 11px;
+}
+
+.forum-form textarea {
+  min-height: 43px;
+  resize: vertical;
+}
+
+.forum-form input:focus,
+.forum-form textarea:focus {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(244, 201, 93, 0.12);
+}
+
+.forum-form button {
+  min-height: 43px;
+  border: 1px solid rgba(255, 244, 220, 0.26);
+  border-radius: 8px;
+  background: linear-gradient(180deg, #f6d779, #b98120);
+  color: #1b1208;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 900;
+  padding: 0 18px;
+}
+
+.forum-form button:hover {
+  filter: brightness(1.06);
+}
+
+.forum-list {
+  display: grid;
+  gap: 10px;
+}
+
+.forum-message {
+  margin-top: 8px;
+  color: var(--text);
+  line-height: 1.45;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
 @media (max-width: 760px) {
   .shell {
     width: min(100% - 24px, 1140px);
@@ -249,5 +325,9 @@ h2 {
 
   .updated {
     white-space: normal;
+  }
+
+  .forum-form {
+    grid-template-columns: 1fr;
   }
 }
