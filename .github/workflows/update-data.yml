@@ -1,0 +1,37 @@
+name: Update API data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch API data
+        env:
+          CRYPTO_API_URL: ${{ secrets.CRYPTO_API_URL }}
+          CRYPTO_API_KEY: ${{ secrets.CRYPTO_API_KEY }}
+          CRYPTO_API_HEADER: ${{ secrets.CRYPTO_API_HEADER }}
+          SPORTS_API_URL: ${{ secrets.SPORTS_API_URL }}
+          SPORTS_API_KEY: ${{ secrets.SPORTS_API_KEY }}
+          SPORTS_API_HEADER: ${{ secrets.SPORTS_API_HEADER }}
+        run: node scripts/fetch-data.mjs
+
+      - name: Commit data updates
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update API data
+          file_pattern: data/*.json

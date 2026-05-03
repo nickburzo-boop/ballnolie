@@ -1,68 +1,46 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>NBA Scores</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-    }
-    p {
-      padding: 8px;
-      border-bottom: 1px solid #ddd;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ballnolie</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <h1>NBA Scores</h1>
-  <div id="scores">Loading...</div>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Live board</p>
+        <h1>Ballnolie</h1>
+      </div>
+      <p id="updated" class="updated">Syncing data</p>
+    </header>
 
-  <script>
-    async function loadGames() {
-      try {
-        const res = await fetch(
-          "https://r.jina.ai/http://site.api.espn.com/apis/v2/sports/basketball/nba/scoreboard"
-        );
+    <section class="grid" aria-label="Market and sports dashboard">
+      <article class="panel market-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Crypto</p>
+            <h2>Market Watch</h2>
+          </div>
+          <span id="crypto-status" class="status">Loading</span>
+        </div>
+        <div id="crypto-list" class="stack"></div>
+      </article>
 
-        if (!res.ok) {
-          throw new Error("Network response failed");
-        }
+      <article class="panel sports-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Sports</p>
+            <h2>Scoreboard</h2>
+          </div>
+          <span id="sports-status" class="status">Loading</span>
+        </div>
+        <div id="sports-list" class="stack"></div>
+      </article>
+    </section>
+  </main>
 
-        const text = await res.text();
-        const data = JSON.parse(text);
-
-        const games = data.events || [];
-        let output = "";
-
-        if (games.length === 0) {
-          output = "No games found right now.";
-        } else {
-          games.slice(0, 5).forEach(game => {
-            const comp = game.competitions[0];
-            const home = comp.competitors[0];
-            const away = comp.competitors[1];
-
-            output += `
-              <p>
-                ${home.team.displayName} ${home.score ?? "-"}
-                vs
-                ${away.team.displayName} ${away.score ?? "-"}
-              </p>
-            `;
-          });
-        }
-
-        document.getElementById("scores").innerHTML = output;
-
-      } catch (err) {
-        console.error(err);
-        document.getElementById("scores").innerHTML =
-          "Failed to load data (check console)";
-      }
-    }
-
-    loadGames();
-  </script>
+  <script src="app.js"></script>
 </body>
 </html>
