@@ -1,77 +1,14 @@
 {
-  "updatedAt": "2026-05-03T23:11:52.530Z",
+  "updatedAt": "2026-05-04T00:12:14.454Z",
   "games": [
     {
-      "league": "UFC Fight Night: Della Maddalena vs. Prates",
-      "status": "Finished",
-      "startTime": "2026-05-02T00:00:00+00:00",
-      "homeTeam": "Robert Bryczek",
-      "awayTeam": "Cam Rowston",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC Fight Night: Della Maddalena vs. Prates",
-      "status": "Cancelled",
-      "startTime": "2026-05-02T03:00:00+00:00",
-      "homeTeam": "Sean Sharaf",
-      "awayTeam": "Tai Tuivasa",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Della Maddalena vs. Prates",
-      "status": "Finished",
-      "startTime": "2026-05-02T08:00:00+00:00",
-      "homeTeam": "Quillan Salkilld",
-      "awayTeam": "Beneil Dariush",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Della Maddalena vs. Prates",
-      "status": "Finished",
-      "startTime": "2026-05-02T08:00:00+00:00",
-      "homeTeam": "Gerald Meerschaert",
-      "awayTeam": "Jacob Malkoun",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC Fight Night: Della Maddalena vs. Prates",
-      "status": "Finished",
-      "startTime": "2026-05-02T08:00:00+00:00",
-      "homeTeam": "Brando Pericic",
-      "awayTeam": "Shamil Gaziev",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Della Maddalena vs. Prates",
-      "status": "Finished",
-      "startTime": "2026-05-02T08:00:00+00:00",
-      "homeTeam": "Vince Morales",
-      "awayTeam": "Colby Thicknesse",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC Fight Night: Della Maddalena vs. Prates",
-      "status": "Finished",
-      "startTime": "2026-05-02T08:00:00+00:00",
-      "homeTeam": "Kody Steele",
-      "awayTeam": "Dom Mar Fan",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
       "league": "NBA",
-      "status": "Scheduled",
+      "status": "In Play",
       "startTime": "2026-05-03T23:30:00.000Z",
       "homeTeam": "Cleveland Cavaliers",
       "awayTeam": "Toronto Raptors",
-      "homeScore": "",
-      "awayScore": ""
+      "homeScore": 24,
+      "awayScore": 26
     },
     {
       "league": "NBA",
