@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-04T04:28:46.369Z",
+  "updatedAt": "2026-05-04T07:37:49.123Z",
   "games": [
     {
       "league": "NBA",
@@ -9,24 +9,6 @@
       "awayTeam": "Toronto Raptors",
       "homeScore": 114,
       "awayScore": 102
-    },
-    {
-      "league": "NBA",
-      "status": "Scheduled",
-      "startTime": "2026-05-03T04:00:00.000Z",
-      "homeTeam": "Los Angeles Lakers",
-      "awayTeam": "Houston Rockets",
-      "homeScore": "",
-      "awayScore": ""
-    },
-    {
-      "league": "NBA",
-      "status": "Scheduled",
-      "startTime": "2026-05-03T04:00:00.000Z",
-      "homeTeam": "Oklahoma City Thunder",
-      "awayTeam": "Phoenix Suns",
-      "homeScore": "",
-      "awayScore": ""
     },
     {
       "league": "NBA",
