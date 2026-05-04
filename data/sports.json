@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-05-04T00:12:14.454Z",
+  "updatedAt": "2026-05-04T04:28:46.369Z",
   "games": [
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-05-03T23:30:00.000Z",
       "homeTeam": "Cleveland Cavaliers",
       "awayTeam": "Toronto Raptors",
-      "homeScore": 24,
-      "awayScore": 26
+      "homeScore": 114,
+      "awayScore": 102
     },
     {
       "league": "NBA",
