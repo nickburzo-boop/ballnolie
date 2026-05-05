@@ -38,6 +38,12 @@ const supabaseKey = "sb_publishable_EuQa1qmL66Rqbifu7gfQqw_Ttc2D5GK";
 const forumEndpoint = `${supabaseUrl}/rest/v1/forum_posts`;
 const usgsEndpoint = "https://earthquake.usgs.gov/fdsnws/event/1/query";
 const locationCookieName = "mastanicks_quake_location";
+const unitedStatesBounds = {
+  minlatitude: "18",
+  maxlatitude: "72",
+  minlongitude: "-179",
+  maxlongitude: "-65"
+};
 
 function setStatus(element, text) {
   element.textContent = text;
@@ -336,6 +342,10 @@ async function loadEarthquakes(event) {
     params.set("latitude", quakeLatitude.value);
     params.set("longitude", quakeLongitude.value);
     params.set("maxradiuskm", quakeRadius.value || "500");
+  } else {
+    Object.entries(unitedStatesBounds).forEach(([key, value]) => {
+      params.set(key, value);
+    });
   }
 
   try {
