@@ -252,7 +252,7 @@ h2 {
 }
 
 .quake-form {
-  grid-template-columns: minmax(150px, 1fr) minmax(120px, 0.5fr) minmax(140px, 0.75fr) auto;
+  grid-template-columns: repeat(3, minmax(120px, 1fr)) repeat(3, minmax(110px, 0.8fr)) auto auto;
 }
 
 .forum-form label,
@@ -308,6 +308,11 @@ h2 {
 .forum-form button:hover,
 .quake-form button:hover {
   filter: brightness(1.06);
+}
+
+.quake-form .secondary-button {
+  background: rgba(7, 61, 53, 0.82);
+  color: var(--text);
 }
 
 .forum-list,

@@ -96,6 +96,19 @@
             <option value="magnitude">Largest</option>
           </select>
         </label>
+        <label>
+          <span>Latitude</span>
+          <input id="quake-latitude" name="latitude" type="number" min="-90" max="90" step="0.0001" placeholder="Optional">
+        </label>
+        <label>
+          <span>Longitude</span>
+          <input id="quake-longitude" name="longitude" type="number" min="-180" max="180" step="0.0001" placeholder="Optional">
+        </label>
+        <label>
+          <span>Radius km</span>
+          <input id="quake-radius" name="maxradiuskm" type="number" min="1" max="20001.6" step="1" value="500">
+        </label>
+        <button id="quake-locate" type="button" class="secondary-button">Use My Location</button>
         <button type="submit">Search</button>
       </form>
 

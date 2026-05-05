@@ -23,6 +23,10 @@ const quakeForm = document.querySelector("#quake-form");
 const quakeDays = document.querySelector("#quake-days");
 const quakeMinMag = document.querySelector("#quake-minmag");
 const quakeOrder = document.querySelector("#quake-order");
+const quakeLatitude = document.querySelector("#quake-latitude");
+const quakeLongitude = document.querySelector("#quake-longitude");
+const quakeRadius = document.querySelector("#quake-radius");
+const quakeLocate = document.querySelector("#quake-locate");
 const quakeList = document.querySelector("#quake-list");
 const quakeStatus = document.querySelector("#quake-status");
 
@@ -208,6 +212,26 @@ function isoDaysAgo(days) {
   return date.toISOString();
 }
 
+function hasLocationFilter() {
+  return quakeLatitude.value.trim() !== "" || quakeLongitude.value.trim() !== "";
+}
+
+function isValidLocationFilter() {
+  const latitude = Number(quakeLatitude.value);
+  const longitude = Number(quakeLongitude.value);
+  const radius = Number(quakeRadius.value);
+
+  return Number.isFinite(latitude) &&
+    Number.isFinite(longitude) &&
+    Number.isFinite(radius) &&
+    latitude >= -90 &&
+    latitude <= 90 &&
+    longitude >= -180 &&
+    longitude <= 180 &&
+    radius > 0 &&
+    radius <= 20001.6;
+}
+
 function renderQuakes(features) {
   if (!features.length) {
     showEmpty(quakeList, "No earthquakes matched that search.");
@@ -251,6 +275,18 @@ async function loadEarthquakes(event) {
     limit: "12"
   });
 
+  if (hasLocationFilter()) {
+    if (!isValidLocationFilter()) {
+      setStatus(quakeStatus, "Check location");
+      showEmpty(quakeList, "Enter both latitude and longitude with a radius between 1 and 20001.6 km.");
+      return;
+    }
+
+    params.set("latitude", quakeLatitude.value);
+    params.set("longitude", quakeLongitude.value);
+    params.set("maxradiuskm", quakeRadius.value || "500");
+  }
+
   try {
     setStatus(quakeStatus, "Searching");
     showEmpty(quakeList, "Reading the USGS table.");
@@ -269,6 +305,33 @@ async function loadEarthquakes(event) {
     setStatus(quakeStatus, "Search failed");
     showEmpty(quakeList, "The USGS search did not respond. Try again in a moment.");
   }
+}
+
+function useCurrentLocation() {
+  if (!navigator.geolocation) {
+    setStatus(quakeStatus, "No location");
+    showEmpty(quakeList, "This browser does not support location lookup.");
+    return;
+  }
+
+  setStatus(quakeStatus, "Locating");
+  navigator.geolocation.getCurrentPosition(
+    (position) => {
+      quakeLatitude.value = position.coords.latitude.toFixed(4);
+      quakeLongitude.value = position.coords.longitude.toFixed(4);
+      quakeRadius.value = quakeRadius.value || "500";
+      loadEarthquakes();
+    },
+    () => {
+      setStatus(quakeStatus, "Location denied");
+      showEmpty(quakeList, "Location access was not allowed. You can enter latitude and longitude manually.");
+    },
+    {
+      enableHighAccuracy: false,
+      maximumAge: 300000,
+      timeout: 10000
+    }
+  );
 }
 
 async function boot() {
@@ -294,6 +357,7 @@ async function boot() {
 forumName.value = localStorage.getItem("forumName") || "";
 forumForm.addEventListener("submit", submitForumPost);
 quakeForm.addEventListener("submit", loadEarthquakes);
+quakeLocate.addEventListener("click", useCurrentLocation);
 
 boot();
 loadForumPosts();
