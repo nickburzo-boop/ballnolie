@@ -1,23 +1,4 @@
 {
-  "updatedAt": "2026-05-04T23:00:29.825Z",
-  "games": [
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-05-03T23:30:00.000Z",
-      "homeTeam": "Cleveland Cavaliers",
-      "awayTeam": "Toronto Raptors",
-      "homeScore": 114,
-      "awayScore": 102
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-05-03T19:30:00.000Z",
-      "homeTeam": "Detroit Pistons",
-      "awayTeam": "Orlando Magic",
-      "homeScore": 116,
-      "awayScore": 94
-    }
-  ]
+  "updatedAt": "2026-05-05T01:12:18.387Z",
+  "games": []
 }
