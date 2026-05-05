@@ -10,6 +10,17 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div id="location-consent" class="location-consent" hidden>
+    <div>
+      <p class="name">Local earthquake search</p>
+      <p class="meta">Allow location to save approximate coordinates in a cookie for nearby USGS results.</p>
+    </div>
+    <div class="consent-actions">
+      <button id="location-allow" type="button">Allow Location</button>
+      <button id="location-skip" type="button" class="secondary-button">Not Now</button>
+    </div>
+  </div>
+
   <main class="shell">
     <header class="topbar">
       <div>

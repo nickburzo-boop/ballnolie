@@ -42,6 +42,53 @@ body::before {
     radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.48) 100%);
 }
 
+.location-consent {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) auto;
+  gap: 14px;
+  align-items: center;
+  width: min(620px, calc(100% - 36px));
+  padding: 14px;
+  border: 1px solid rgba(244, 201, 93, 0.54);
+  border-radius: 8px;
+  background:
+    linear-gradient(90deg, rgba(7, 61, 53, 0.94), rgba(22, 18, 13, 0.96)),
+    var(--panel);
+  box-shadow: 0 18px 70px rgba(0, 0, 0, 0.42);
+}
+
+.location-consent[hidden] {
+  display: none;
+}
+
+.consent-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.consent-actions button {
+  min-height: 39px;
+  border: 1px solid rgba(255, 244, 220, 0.26);
+  border-radius: 8px;
+  background: linear-gradient(180deg, #f6d779, #b98120);
+  color: #1b1208;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 900;
+  padding: 0 13px;
+  white-space: nowrap;
+}
+
+.consent-actions .secondary-button {
+  background: rgba(7, 61, 53, 0.82);
+  color: var(--text);
+}
+
 .shell {
   position: relative;
   width: min(1140px, calc(100% - 32px));
@@ -397,5 +444,21 @@ h2 {
 
   .quake-main {
     align-items: flex-start;
+  }
+
+  .location-consent,
+  .consent-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .location-consent {
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    width: auto;
+  }
+
+  .consent-actions {
+    display: grid;
   }
 }

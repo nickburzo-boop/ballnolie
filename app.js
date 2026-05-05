@@ -14,6 +14,9 @@ const sportsList = document.querySelector("#sports-list");
 const cryptoStatus = document.querySelector("#crypto-status");
 const sportsStatus = document.querySelector("#sports-status");
 const updated = document.querySelector("#updated");
+const locationConsent = document.querySelector("#location-consent");
+const locationAllow = document.querySelector("#location-allow");
+const locationSkip = document.querySelector("#location-skip");
 const forumForm = document.querySelector("#forum-form");
 const forumName = document.querySelector("#forum-name");
 const forumMessage = document.querySelector("#forum-message");
@@ -34,6 +37,7 @@ const supabaseUrl = "https://negyqhvbbfoekrnxlmrk.supabase.co";
 const supabaseKey = "sb_publishable_EuQa1qmL66Rqbifu7gfQqw_Ttc2D5GK";
 const forumEndpoint = `${supabaseUrl}/rest/v1/forum_posts`;
 const usgsEndpoint = "https://earthquake.usgs.gov/fdsnws/event/1/query";
+const locationCookieName = "mastanicks_quake_location";
 
 function setStatus(element, text) {
   element.textContent = text;
@@ -50,6 +54,46 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+}
+
+function setCookie(name, value, days) {
+  const expires = new Date(Date.now() + days * 86400000).toUTCString();
+  document.cookie = `${name}=${encodeURIComponent(value)}; expires=${expires}; path=/; SameSite=Lax; Secure`;
+}
+
+function getCookie(name) {
+  return document.cookie
+    .split("; ")
+    .find((cookie) => cookie.startsWith(`${name}=`))
+    ?.split("=")
+    .slice(1)
+    .join("=") || "";
+}
+
+function readSavedLocation() {
+  const raw = getCookie(locationCookieName);
+
+  if (!raw) {
+    return null;
+  }
+
+  try {
+    const parsed = JSON.parse(decodeURIComponent(raw));
+    const latitude = Number(parsed.latitude);
+    const longitude = Number(parsed.longitude);
+
+    if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) {
+      return null;
+    }
+
+    return { latitude, longitude };
+  } catch {
+    return null;
+  }
+}
+
+function saveLocation(latitude, longitude) {
+  setCookie(locationCookieName, JSON.stringify({ latitude, longitude }), 180);
 }
 
 function renderUpdatedAt(records) {
@@ -232,6 +276,13 @@ function isValidLocationFilter() {
     radius <= 20001.6;
 }
 
+function applyLocation(latitude, longitude) {
+  quakeLatitude.value = Number(latitude).toFixed(4);
+  quakeLongitude.value = Number(longitude).toFixed(4);
+  quakeRadius.value = quakeRadius.value || "500";
+  saveLocation(quakeLatitude.value, quakeLongitude.value);
+}
+
 function renderQuakes(features) {
   if (!features.length) {
     showEmpty(quakeList, "No earthquakes matched that search.");
@@ -315,16 +366,21 @@ function useCurrentLocation() {
   }
 
   setStatus(quakeStatus, "Locating");
+  quakeLocate.disabled = true;
   navigator.geolocation.getCurrentPosition(
     (position) => {
-      quakeLatitude.value = position.coords.latitude.toFixed(4);
-      quakeLongitude.value = position.coords.longitude.toFixed(4);
-      quakeRadius.value = quakeRadius.value || "500";
+      quakeLocate.disabled = false;
+      locationConsent.hidden = true;
+      applyLocation(position.coords.latitude, position.coords.longitude);
       loadEarthquakes();
     },
-    () => {
-      setStatus(quakeStatus, "Location denied");
-      showEmpty(quakeList, "Location access was not allowed. You can enter latitude and longitude manually.");
+    (error) => {
+      quakeLocate.disabled = false;
+      const message = error.code === error.PERMISSION_DENIED
+        ? "Location access was blocked. Check the browser site permissions, or enter latitude and longitude manually."
+        : "The browser could not determine location. You can enter latitude and longitude manually.";
+      setStatus(quakeStatus, "Location blocked");
+      showEmpty(quakeList, message);
     },
     {
       enableHighAccuracy: false,
@@ -332,6 +388,25 @@ function useCurrentLocation() {
       timeout: 10000
     }
   );
+}
+
+function showLocationConsent() {
+  if (readSavedLocation() || localStorage.getItem("locationConsentSkipped") === "true") {
+    return;
+  }
+
+  locationConsent.hidden = false;
+}
+
+function hydrateSavedLocation() {
+  const saved = readSavedLocation();
+
+  if (!saved) {
+    return;
+  }
+
+  quakeLatitude.value = saved.latitude.toFixed(4);
+  quakeLongitude.value = saved.longitude.toFixed(4);
 }
 
 async function boot() {
@@ -355,9 +430,16 @@ async function boot() {
 }
 
 forumName.value = localStorage.getItem("forumName") || "";
+hydrateSavedLocation();
+showLocationConsent();
 forumForm.addEventListener("submit", submitForumPost);
 quakeForm.addEventListener("submit", loadEarthquakes);
 quakeLocate.addEventListener("click", useCurrentLocation);
+locationAllow.addEventListener("click", useCurrentLocation);
+locationSkip.addEventListener("click", () => {
+  localStorage.setItem("locationConsentSkipped", "true");
+  locationConsent.hidden = true;
+});
 
 boot();
 loadForumPosts();
