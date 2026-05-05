@@ -19,10 +19,17 @@ const forumName = document.querySelector("#forum-name");
 const forumMessage = document.querySelector("#forum-message");
 const forumList = document.querySelector("#forum-list");
 const forumStatus = document.querySelector("#forum-status");
+const quakeForm = document.querySelector("#quake-form");
+const quakeDays = document.querySelector("#quake-days");
+const quakeMinMag = document.querySelector("#quake-minmag");
+const quakeOrder = document.querySelector("#quake-order");
+const quakeList = document.querySelector("#quake-list");
+const quakeStatus = document.querySelector("#quake-status");
 
 const supabaseUrl = "https://negyqhvbbfoekrnxlmrk.supabase.co";
 const supabaseKey = "sb_publishable_EuQa1qmL66Rqbifu7gfQqw_Ttc2D5GK";
 const forumEndpoint = `${supabaseUrl}/rest/v1/forum_posts`;
+const usgsEndpoint = "https://earthquake.usgs.gov/fdsnws/event/1/query";
 
 function setStatus(element, text) {
   element.textContent = text;
@@ -195,6 +202,75 @@ async function submitForumPost(event) {
   }
 }
 
+function isoDaysAgo(days) {
+  const date = new Date();
+  date.setUTCDate(date.getUTCDate() - Number(days));
+  return date.toISOString();
+}
+
+function renderQuakes(features) {
+  if (!features.length) {
+    showEmpty(quakeList, "No earthquakes matched that search.");
+    return;
+  }
+
+  quakeList.innerHTML = features.map((feature) => {
+    const props = feature.properties || {};
+    const coords = feature.geometry?.coordinates || [];
+    const magnitude = Number(props.mag || 0).toFixed(1);
+    const depth = Number(coords[2] || 0).toFixed(1);
+    const place = props.place || "Unknown location";
+    const time = props.time ? new Date(props.time).toLocaleString([], { dateStyle: "medium", timeStyle: "short" }) : "";
+    const detailUrl = props.url || "#";
+
+    return `
+      <article class="quake-card">
+        <div class="quake-main">
+          <p class="quake-mag">M ${escapeHtml(magnitude)}</p>
+          <div>
+            <p class="name">${escapeHtml(place)}</p>
+            <p class="meta">${escapeHtml(time)} | ${escapeHtml(depth)} km deep</p>
+          </div>
+        </div>
+        <a class="quake-link" href="${escapeHtml(detailUrl)}" target="_blank" rel="noreferrer">USGS</a>
+      </article>
+    `;
+  }).join("");
+}
+
+async function loadEarthquakes(event) {
+  event?.preventDefault();
+
+  const params = new URLSearchParams({
+    format: "geojson",
+    eventtype: "earthquake",
+    starttime: isoDaysAgo(quakeDays.value),
+    endtime: new Date().toISOString(),
+    minmagnitude: quakeMinMag.value || "0",
+    orderby: quakeOrder.value,
+    limit: "12"
+  });
+
+  try {
+    setStatus(quakeStatus, "Searching");
+    showEmpty(quakeList, "Reading the USGS table.");
+    const response = await fetch(`${usgsEndpoint}?${params.toString()}`, { cache: "no-store" });
+
+    if (!response.ok) {
+      throw new Error(`USGS returned ${response.status}`);
+    }
+
+    const data = await response.json();
+    const features = Array.isArray(data.features) ? data.features : [];
+    renderQuakes(features);
+    setStatus(quakeStatus, `${features.length} events`);
+  } catch (error) {
+    console.error(error);
+    setStatus(quakeStatus, "Search failed");
+    showEmpty(quakeList, "The USGS search did not respond. Try again in a moment.");
+  }
+}
+
 async function boot() {
   try {
     const [crypto, sports] = await Promise.all([
@@ -217,6 +293,8 @@ async function boot() {
 
 forumName.value = localStorage.getItem("forumName") || "";
 forumForm.addEventListener("submit", submitForumPost);
+quakeForm.addEventListener("submit", loadEarthquakes);
 
 boot();
 loadForumPosts();
+loadEarthquakes();

@@ -66,6 +66,41 @@
 
       <div id="forum-list" class="forum-list"></div>
     </section>
+
+    <section class="quake-panel panel" aria-label="USGS earthquake search">
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">USGS Search</p>
+          <h2>Earthquake Table</h2>
+        </div>
+        <span id="quake-status" class="status">Ready</span>
+      </div>
+
+      <form id="quake-form" class="quake-form">
+        <label>
+          <span>Window</span>
+          <select id="quake-days" name="days">
+            <option value="1">Past 24 hours</option>
+            <option value="7" selected>Past 7 days</option>
+            <option value="30">Past 30 days</option>
+          </select>
+        </label>
+        <label>
+          <span>Min mag</span>
+          <input id="quake-minmag" name="minmagnitude" type="number" min="0" max="10" step="0.1" value="4.5">
+        </label>
+        <label>
+          <span>Order</span>
+          <select id="quake-order" name="orderby">
+            <option value="time">Newest</option>
+            <option value="magnitude">Largest</option>
+          </select>
+        </label>
+        <button type="submit">Search</button>
+      </form>
+
+      <div id="quake-list" class="quake-list"></div>
+    </section>
   </main>
 
   <script src="app.js"></script>

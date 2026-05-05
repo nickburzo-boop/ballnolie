@@ -145,6 +145,11 @@ h2 {
   border-top: 4px solid var(--gold);
 }
 
+.quake-panel {
+  margin-top: 18px;
+  border-top: 4px solid var(--blue);
+}
+
 .panel-heading {
   margin-bottom: 18px;
   padding-bottom: 14px;
@@ -167,6 +172,7 @@ h2 {
 .asset,
 .match,
 .forum-post,
+.quake-card,
 .empty {
   padding: 14px;
   border: 1px solid rgba(244, 201, 93, 0.24);
@@ -178,7 +184,8 @@ h2 {
 
 .asset:hover,
 .match:hover,
-.forum-post:hover {
+.forum-post:hover,
+.quake-card:hover {
   border-color: rgba(244, 201, 93, 0.62);
 }
 
@@ -235,7 +242,8 @@ h2 {
   color: var(--muted);
 }
 
-.forum-form {
+.forum-form,
+.quake-form {
   display: grid;
   grid-template-columns: minmax(150px, 0.35fr) minmax(240px, 1fr) auto;
   gap: 12px;
@@ -243,7 +251,12 @@ h2 {
   margin-bottom: 16px;
 }
 
-.forum-form label {
+.quake-form {
+  grid-template-columns: minmax(150px, 1fr) minmax(120px, 0.5fr) minmax(140px, 0.75fr) auto;
+}
+
+.forum-form label,
+.quake-form label {
   display: grid;
   gap: 6px;
   color: var(--muted);
@@ -253,7 +266,9 @@ h2 {
 }
 
 .forum-form input,
-.forum-form textarea {
+.forum-form textarea,
+.quake-form input,
+.quake-form select {
   width: 100%;
   border: 1px solid rgba(244, 201, 93, 0.34);
   border-radius: 8px;
@@ -270,12 +285,15 @@ h2 {
 }
 
 .forum-form input:focus,
-.forum-form textarea:focus {
+.forum-form textarea:focus,
+.quake-form input:focus,
+.quake-form select:focus {
   border-color: var(--gold);
   box-shadow: 0 0 0 3px rgba(244, 201, 93, 0.12);
 }
 
-.forum-form button {
+.forum-form button,
+.quake-form button {
   min-height: 43px;
   border: 1px solid rgba(255, 244, 220, 0.26);
   border-radius: 8px;
@@ -287,11 +305,13 @@ h2 {
   padding: 0 18px;
 }
 
-.forum-form button:hover {
+.forum-form button:hover,
+.quake-form button:hover {
   filter: brightness(1.06);
 }
 
-.forum-list {
+.forum-list,
+.quake-list {
   display: grid;
   gap: 10px;
 }
@@ -302,6 +322,43 @@ h2 {
   line-height: 1.45;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
+}
+
+.quake-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 14px;
+}
+
+.quake-main {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+
+.quake-mag {
+  flex: 0 0 auto;
+  min-width: 64px;
+  padding: 9px 10px;
+  border: 1px solid rgba(132, 215, 255, 0.44);
+  border-radius: 8px;
+  background: rgba(132, 215, 255, 0.1);
+  color: var(--blue);
+  font-weight: 900;
+  text-align: center;
+}
+
+.quake-link {
+  color: var(--gold);
+  font-size: 0.86rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.quake-link:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 760px) {
@@ -327,7 +384,13 @@ h2 {
     white-space: normal;
   }
 
-  .forum-form {
+  .forum-form,
+  .quake-form,
+  .quake-card {
     grid-template-columns: 1fr;
+  }
+
+  .quake-main {
+    align-items: flex-start;
   }
 }
