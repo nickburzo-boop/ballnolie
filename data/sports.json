@@ -1,4 +1,32 @@
 {
-  "updatedAt": "2026-05-05T23:58:46.948Z",
-  "games": []
+  "updatedAt": "2026-05-06T03:58:29.921Z",
+  "games": [
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-05-05T01:30:00.000Z",
+      "homeTeam": "San Antonio Spurs",
+      "awayTeam": "Minnesota Timberwolves",
+      "homeScore": 102,
+      "awayScore": 104
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-05-05T00:00:00.000Z",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "Philadelphia 76ers",
+      "homeScore": 137,
+      "awayScore": 98
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-05-05T23:00:00.000Z",
+      "homeTeam": "Detroit Pistons",
+      "awayTeam": "Cleveland Cavaliers",
+      "homeScore": 111,
+      "awayScore": 101
+    }
+  ]
 }
