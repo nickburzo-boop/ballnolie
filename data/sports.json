@@ -1,23 +1,77 @@
 {
-  "updatedAt": "2026-05-09T23:26:24.170Z",
+  "updatedAt": "2026-05-10T01:22:22.605Z",
   "games": [
     {
-      "league": "NBA",
+      "league": "UFC 328: Chimaev vs. Strickland",
       "status": "Finished",
-      "startTime": "2026-05-08T01:30:00.000Z",
-      "homeTeam": "Oklahoma City Thunder",
-      "awayTeam": "Los Angeles Lakers",
-      "homeScore": 125,
-      "awayScore": 107
+      "startTime": "2026-05-09T13:00:00+00:00",
+      "homeTeam": "Djorden Santos",
+      "awayTeam": "Baisangur Susurkaev",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC 328: Chimaev vs. Strickland",
+      "status": "Finished",
+      "startTime": "2026-05-09T21:00:00+00:00",
+      "homeTeam": "Jose Ochoa",
+      "awayTeam": "Clayton Carpenter",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC 328: Chimaev vs. Strickland",
+      "status": "Finished",
+      "startTime": "2026-05-09T22:15:00+00:00",
+      "homeTeam": "William Gomis",
+      "awayTeam": "Pat Sabatini",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC 328: Chimaev vs. Strickland",
+      "status": "Finished",
+      "startTime": "2026-05-09T22:45:00+00:00",
+      "homeTeam": "Marco Tulio",
+      "awayTeam": "Roman Kopylov",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC 328: Chimaev vs. Strickland",
+      "status": "Finished",
+      "startTime": "2026-05-09T23:15:00+00:00",
+      "homeTeam": "Jared Gordon",
+      "awayTeam": "Jim Miller",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC 328: Chimaev vs. Strickland",
+      "status": "Finished",
+      "startTime": "2026-05-09T23:30:00+00:00",
+      "homeTeam": "Mateusz Rebecki",
+      "awayTeam": "Grant Dawson",
+      "homeScore": "L",
+      "awayScore": "W"
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-05-08T23:00:00.000Z",
-      "homeTeam": "Philadelphia 76ers",
-      "awayTeam": "New York Knicks",
-      "homeScore": 94,
-      "awayScore": 108
+      "startTime": "2026-05-09T01:30:00.000Z",
+      "homeTeam": "Minnesota Timberwolves",
+      "awayTeam": "San Antonio Spurs",
+      "homeScore": 108,
+      "awayScore": 115
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-05-09T19:00:00.000Z",
+      "homeTeam": "Cleveland Cavaliers",
+      "awayTeam": "Detroit Pistons",
+      "homeScore": 116,
+      "awayScore": 109
     }
   ]
 }
