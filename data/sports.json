@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-11T01:27:22.986Z",
+  "updatedAt": "2026-05-11T05:40:34.739Z",
   "games": [
     {
       "league": "UFC 328: Chimaev vs. Strickland",
@@ -66,12 +66,12 @@
     },
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-05-10T23:30:00.000Z",
       "homeTeam": "Minnesota Timberwolves",
       "awayTeam": "San Antonio Spurs",
-      "homeScore": 70,
-      "awayScore": 76
+      "homeScore": 114,
+      "awayScore": 109
     },
     {
       "league": "NBA",
