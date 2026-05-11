@@ -1,77 +1,95 @@
 {
-  "updatedAt": "2026-05-10T23:29:04.586Z",
+  "updatedAt": "2026-05-11T01:27:22.986Z",
   "games": [
     {
       "league": "UFC 328: Chimaev vs. Strickland",
       "status": "Finished",
-      "startTime": "2026-05-09T13:00:00+00:00",
-      "homeTeam": "Djorden Santos",
-      "awayTeam": "Baisangur Susurkaev",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC 328: Chimaev vs. Strickland",
-      "status": "Finished",
-      "startTime": "2026-05-09T21:00:00+00:00",
-      "homeTeam": "Jose Ochoa",
-      "awayTeam": "Clayton Carpenter",
+      "startTime": "2026-05-10T00:00:00+00:00",
+      "homeTeam": "Yaroslav Amosov",
+      "awayTeam": "Joel Ãlvarez",
       "homeScore": "W",
       "awayScore": "L"
     },
     {
       "league": "UFC 328: Chimaev vs. Strickland",
       "status": "Finished",
-      "startTime": "2026-05-09T22:15:00+00:00",
-      "homeTeam": "William Gomis",
-      "awayTeam": "Pat Sabatini",
+      "startTime": "2026-05-10T00:30:00+00:00",
+      "homeTeam": "Ozzy Diaz",
+      "awayTeam": "Ateba Gautier",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC 328: Chimaev vs. Strickland",
+      "status": "Cancelled",
+      "startTime": "2026-05-10T00:30:00+00:00",
+      "homeTeam": "Bogdan Guskov",
+      "awayTeam": "Jan Blachowicz",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC 328: Chimaev vs. Strickland",
+      "status": "Finished",
+      "startTime": "2026-05-10T01:00:00+00:00",
+      "homeTeam": "Jeremy Stephens",
+      "awayTeam": "King Green",
       "homeScore": "L",
       "awayScore": "W"
     },
     {
       "league": "UFC 328: Chimaev vs. Strickland",
       "status": "Finished",
-      "startTime": "2026-05-09T22:45:00+00:00",
-      "homeTeam": "Marco Tulio",
-      "awayTeam": "Roman Kopylov",
+      "startTime": "2026-05-10T01:45:00+00:00",
+      "homeTeam": "Joaquin Buckley",
+      "awayTeam": "Sean Brady",
       "homeScore": "L",
       "awayScore": "W"
     },
     {
       "league": "UFC 328: Chimaev vs. Strickland",
       "status": "Finished",
-      "startTime": "2026-05-09T23:15:00+00:00",
-      "homeTeam": "Jared Gordon",
-      "awayTeam": "Jim Miller",
+      "startTime": "2026-05-10T02:30:00+00:00",
+      "homeTeam": "Waldo Cortes Acosta",
+      "awayTeam": "Alexander Volkov",
       "homeScore": "L",
       "awayScore": "W"
     },
     {
       "league": "UFC 328: Chimaev vs. Strickland",
       "status": "Finished",
-      "startTime": "2026-05-09T23:30:00+00:00",
-      "homeTeam": "Mateusz Rebecki",
-      "awayTeam": "Grant Dawson",
+      "startTime": "2026-05-10T02:45:00+00:00",
+      "homeTeam": "Tatsuro Taira",
+      "awayTeam": "Joshua Van",
       "homeScore": "L",
       "awayScore": "W"
     },
     {
       "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-05-09T01:30:00.000Z",
+      "status": "In Play",
+      "startTime": "2026-05-10T23:30:00.000Z",
       "homeTeam": "Minnesota Timberwolves",
       "awayTeam": "San Antonio Spurs",
-      "homeScore": 108,
-      "awayScore": 115
+      "homeScore": 70,
+      "awayScore": 76
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-05-09T19:00:00.000Z",
-      "homeTeam": "Cleveland Cavaliers",
-      "awayTeam": "Detroit Pistons",
-      "homeScore": 116,
-      "awayScore": 109
+      "startTime": "2026-05-10T00:30:00.000Z",
+      "homeTeam": "Los Angeles Lakers",
+      "awayTeam": "Oklahoma City Thunder",
+      "homeScore": 108,
+      "awayScore": 131
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-05-10T19:30:00.000Z",
+      "homeTeam": "Philadelphia 76ers",
+      "awayTeam": "New York Knicks",
+      "homeScore": 114,
+      "awayScore": 144
     }
   ]
 }
