@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-05-15T23:29:27.037Z",
+  "updatedAt": "2026-05-16T01:20:13.406Z",
   "games": [
     {
       "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-05-14T00:00:00.000Z",
-      "homeTeam": "Detroit Pistons",
-      "awayTeam": "Cleveland Cavaliers",
-      "homeScore": 113,
-      "awayScore": 117
+      "status": "In Play",
+      "startTime": "2026-05-15T23:00:00.000Z",
+      "homeTeam": "Cleveland Cavaliers",
+      "awayTeam": "Detroit Pistons",
+      "homeScore": 80,
+      "awayScore": 94
     }
   ]
 }
