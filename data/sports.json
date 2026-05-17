@@ -1,14 +1,77 @@
 {
-  "updatedAt": "2026-05-16T23:29:27.269Z",
+  "updatedAt": "2026-05-17T01:27:41.360Z",
   "games": [
+    {
+      "league": "UFC Fight Night: Allen vs. Costa",
+      "status": "Finished",
+      "startTime": "2026-05-16T13:00:00+00:00",
+      "homeTeam": "Ivan Erslan",
+      "awayTeam": "Tuco Tokkos",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Allen vs. Costa",
+      "status": "Cancelled",
+      "startTime": "2026-05-16T13:00:00+00:00",
+      "homeTeam": "Nicolas Dalby",
+      "awayTeam": "Jeremiah Wells",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Allen vs. Costa",
+      "status": "Cancelled",
+      "startTime": "2026-05-16T13:00:00+00:00",
+      "homeTeam": "Tommy Gantt",
+      "awayTeam": "Trey Ogden",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Allen vs. Costa",
+      "status": "Cancelled",
+      "startTime": "2026-05-16T13:00:00+00:00",
+      "homeTeam": "Tommy Gantt",
+      "awayTeam": "Trey Ogden",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Allen vs. Costa",
+      "status": "Finished",
+      "startTime": "2026-05-16T13:00:00+00:00",
+      "homeTeam": "Artur Minev",
+      "awayTeam": "Tommy Gantt",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Allen vs. Costa",
+      "status": "Finished",
+      "startTime": "2026-05-16T16:00:00+00:00",
+      "homeTeam": "Bernardo Sopaj",
+      "awayTeam": "Timmy Cuamba",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Allen vs. Costa",
+      "status": "Finished",
+      "startTime": "2026-05-16T16:00:00+00:00",
+      "homeTeam": "Khaos Williams",
+      "awayTeam": "Nikolay Veretennikov",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-05-15T23:00:00.000Z",
-      "homeTeam": "Cleveland Cavaliers",
-      "awayTeam": "Detroit Pistons",
-      "homeScore": 94,
-      "awayScore": 115
+      "startTime": "2026-05-16T01:30:00.000Z",
+      "homeTeam": "Minnesota Timberwolves",
+      "awayTeam": "San Antonio Spurs",
+      "homeScore": 109,
+      "awayScore": 139
     }
   ]
 }
