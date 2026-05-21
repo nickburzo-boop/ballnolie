@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-05-20T23:50:22.422Z",
+  "updatedAt": "2026-05-21T04:19:01.167Z",
   "games": [
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-05-19T00:30:00.000Z",
-      "homeTeam": "Oklahoma City Thunder",
-      "awayTeam": "San Antonio Spurs",
+      "startTime": "2026-05-20T00:00:00.000Z",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "Cleveland Cavaliers",
       "homeScore": 115,
-      "awayScore": 122
+      "awayScore": 104
     }
   ]
 }
