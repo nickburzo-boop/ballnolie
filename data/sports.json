@@ -1,4 +1,14 @@
 {
-  "updatedAt": "2026-05-29T22:52:47.881Z",
-  "games": []
+  "updatedAt": "2026-05-30T00:14:01.046Z",
+  "games": [
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-05-29T00:30:00.000Z",
+      "homeTeam": "San Antonio Spurs",
+      "awayTeam": "Oklahoma City Thunder",
+      "homeScore": 118,
+      "awayScore": 91
+    }
+  ]
 }
