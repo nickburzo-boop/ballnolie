@@ -1,14 +1,68 @@
 {
-  "updatedAt": "2026-05-30T22:32:11.323Z",
+  "updatedAt": "2026-05-31T00:06:09.839Z",
   "games": [
     {
-      "league": "NBA",
+      "league": "UFC Fight Night: Song vs. Figueiredo",
+      "status": "Cancelled",
+      "startTime": "2026-05-30T00:00:00+00:00",
+      "homeTeam": "Ramon Taveras",
+      "awayTeam": "Zhu Kangjie",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Song vs. Figueiredo",
       "status": "Finished",
-      "startTime": "2026-05-29T00:30:00.000Z",
-      "homeTeam": "San Antonio Spurs",
-      "awayTeam": "Oklahoma City Thunder",
-      "homeScore": 118,
-      "awayScore": 91
+      "startTime": "2026-05-30T08:00:00+00:00",
+      "homeTeam": "Jaqueline Amorim",
+      "awayTeam": "Loma Lookboonmee",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Song vs. Figueiredo",
+      "status": "Finished",
+      "startTime": "2026-05-30T08:00:00+00:00",
+      "homeTeam": "Carlston Harris",
+      "awayTeam": "Jake Matthews",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Song vs. Figueiredo",
+      "status": "Cancelled",
+      "startTime": "2026-05-30T08:40:00+00:00",
+      "homeTeam": "Jesus Aguilar",
+      "awayTeam": "Rei Tsuruya",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Song vs. Figueiredo",
+      "status": "Finished",
+      "startTime": "2026-05-30T08:45:00+00:00",
+      "homeTeam": "Jingnan Xiong",
+      "awayTeam": "Angela Hill",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Song vs. Figueiredo",
+      "status": "Finished",
+      "startTime": "2026-05-30T09:15:00+00:00",
+      "homeTeam": "Luis Gurule",
+      "awayTeam": "Rei Tsuruya",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Song vs. Figueiredo",
+      "status": "Finished",
+      "startTime": "2026-05-30T09:30:00+00:00",
+      "homeTeam": "Cody Haddon",
+      "awayTeam": "Aoriqileng",
+      "homeScore": "W",
+      "awayScore": "L"
     }
   ]
 }
