@@ -1,68 +1,14 @@
 {
-  "updatedAt": "2026-05-31T23:07:41.387Z",
+  "updatedAt": "2026-06-01T01:40:54.642Z",
   "games": [
     {
-      "league": "UFC Fight Night: Song vs. Figueiredo",
-      "status": "Cancelled",
-      "startTime": "2026-05-30T00:00:00+00:00",
-      "homeTeam": "Ramon Taveras",
-      "awayTeam": "Zhu Kangjie",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Song vs. Figueiredo",
+      "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-05-30T08:00:00+00:00",
-      "homeTeam": "Jaqueline Amorim",
-      "awayTeam": "Loma Lookboonmee",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Song vs. Figueiredo",
-      "status": "Finished",
-      "startTime": "2026-05-30T08:00:00+00:00",
-      "homeTeam": "Carlston Harris",
-      "awayTeam": "Jake Matthews",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC Fight Night: Song vs. Figueiredo",
-      "status": "Cancelled",
-      "startTime": "2026-05-30T08:40:00+00:00",
-      "homeTeam": "Jesus Aguilar",
-      "awayTeam": "Rei Tsuruya",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Song vs. Figueiredo",
-      "status": "Finished",
-      "startTime": "2026-05-30T08:45:00+00:00",
-      "homeTeam": "Jingnan Xiong",
-      "awayTeam": "Angela Hill",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC Fight Night: Song vs. Figueiredo",
-      "status": "Finished",
-      "startTime": "2026-05-30T09:15:00+00:00",
-      "homeTeam": "Luis Gurule",
-      "awayTeam": "Rei Tsuruya",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC Fight Night: Song vs. Figueiredo",
-      "status": "Finished",
-      "startTime": "2026-05-30T09:30:00+00:00",
-      "homeTeam": "Cody Haddon",
-      "awayTeam": "Aoriqileng",
-      "homeScore": "W",
-      "awayScore": "L"
+      "startTime": "2026-05-31T00:00:00.000Z",
+      "homeTeam": "Oklahoma City Thunder",
+      "awayTeam": "San Antonio Spurs",
+      "homeScore": 103,
+      "awayScore": 111
     }
   ]
 }
