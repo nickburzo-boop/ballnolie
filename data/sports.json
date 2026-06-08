@@ -1,77 +1,50 @@
 {
-  "updatedAt": "2026-06-07T23:11:41.817Z",
+  "updatedAt": "2026-06-08T01:41:07.958Z",
   "games": [
     {
       "league": "UFC Fight Night: Muhammad vs. Bonfim",
-      "status": "Cancelled",
-      "startTime": "2026-06-06T13:00:00+00:00",
-      "homeTeam": "Jakub Wiklacz",
-      "awayTeam": "Marcus McGhee",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Muhammad vs. Bonfim",
-      "status": "Cancelled",
-      "startTime": "2026-06-06T16:00:00+00:00",
-      "homeTeam": "Billy Elekana",
+      "status": "Finished",
+      "startTime": "2026-06-07T00:00:00+00:00",
+      "homeTeam": "Junior Tafa",
       "awayTeam": "Iwo Baraniewski",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Muhammad vs. Bonfim",
-      "status": "Cancelled",
-      "startTime": "2026-06-06T21:00:00+00:00",
-      "homeTeam": "Matt Schnell",
-      "awayTeam": "Imanol Rodriguez",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Muhammad vs. Bonfim",
-      "status": "Finished",
-      "startTime": "2026-06-06T21:00:00+00:00",
-      "homeTeam": "Ãdgar ChÃ¡irez",
-      "awayTeam": "Bruno Silva",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Muhammad vs. Bonfim",
-      "status": "Cancelled",
-      "startTime": "2026-06-06T21:00:00+00:00",
-      "homeTeam": "Victor Henry",
-      "awayTeam": "Bryce Mitchell",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Muhammad vs. Bonfim",
-      "status": "Finished",
-      "startTime": "2026-06-06T21:00:00+00:00",
-      "homeTeam": "Ariane Carnelossi",
-      "awayTeam": "Ketlen Souza",
       "homeScore": "L",
       "awayScore": "W"
     },
     {
       "league": "UFC Fight Night: Muhammad vs. Bonfim",
       "status": "Finished",
-      "startTime": "2026-06-06T21:00:00+00:00",
-      "homeTeam": "Chelsea Chandler",
-      "awayTeam": "Priscila Cachoeira",
+      "startTime": "2026-06-07T00:30:00+00:00",
+      "homeTeam": "Santiago Luna",
+      "awayTeam": "Bryce Mitchell",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Muhammad vs. Bonfim",
+      "status": "Finished",
+      "startTime": "2026-06-07T01:00:00+00:00",
+      "homeTeam": "Tom Nolan",
+      "awayTeam": "FarÃ©s Ziam",
       "homeScore": "W",
       "awayScore": "L"
     },
     {
-      "league": "NBA",
+      "league": "UFC Fight Night: Muhammad vs. Bonfim",
       "status": "Finished",
-      "startTime": "2026-06-06T00:30:00.000Z",
-      "homeTeam": "San Antonio Spurs",
-      "awayTeam": "New York Knicks",
-      "homeScore": 104,
-      "awayScore": 105
+      "startTime": "2026-06-07T01:30:00+00:00",
+      "homeTeam": "Edmen Shahbazyan",
+      "awayTeam": "Brendan Allen",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Muhammad vs. Bonfim",
+      "status": "Finished",
+      "startTime": "2026-06-07T02:00:00+00:00",
+      "homeTeam": "Gabriel Bonfim",
+      "awayTeam": "Belal Muhammad",
+      "homeScore": "W",
+      "awayScore": "L"
     }
   ]
 }
