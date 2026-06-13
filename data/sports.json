@@ -1,14 +1,4 @@
 {
-  "updatedAt": "2026-06-12T22:59:02.995Z",
-  "games": [
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-06-11T00:30:00.000Z",
-      "homeTeam": "New York Knicks",
-      "awayTeam": "San Antonio Spurs",
-      "homeScore": 107,
-      "awayScore": 106
-    }
-  ]
+  "updatedAt": "2026-06-13T00:24:17.431Z",
+  "games": []
 }
