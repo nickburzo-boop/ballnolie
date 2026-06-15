@@ -1,50 +1,50 @@
 {
-  "updatedAt": "2026-06-15T02:00:43.642Z",
+  "updatedAt": "2026-06-15T08:37:11.401Z",
   "games": [
     {
       "league": "UFC Freedom 250: Topuria vs. Gaethje",
-      "status": "Not Started",
+      "status": "Finished",
       "startTime": "2026-06-14T22:00:00+00:00",
       "homeTeam": "Justin Gaethje",
       "awayTeam": "Ilia Topuria",
-      "homeScore": "L",
+      "homeScore": "W",
       "awayScore": "L"
     },
     {
       "league": "UFC Freedom 250: Topuria vs. Gaethje",
-      "status": "Not Started",
+      "status": "Finished",
       "startTime": "2026-06-14T22:00:00+00:00",
       "homeTeam": "Aiemann Zahabi",
       "awayTeam": "Sean O'Malley",
       "homeScore": "L",
-      "awayScore": "L"
+      "awayScore": "W"
     },
     {
       "league": "UFC Freedom 250: Topuria vs. Gaethje",
-      "status": "Not Started",
+      "status": "Finished",
       "startTime": "2026-06-14T22:00:00+00:00",
       "homeTeam": "Michael Chandler",
       "awayTeam": "Mauricio Ruffy",
       "homeScore": "L",
-      "awayScore": "L"
+      "awayScore": "W"
     },
     {
       "league": "UFC Freedom 250: Topuria vs. Gaethje",
-      "status": "Not Started",
+      "status": "Finished",
       "startTime": "2026-06-14T22:00:00+00:00",
       "homeTeam": "Kyle Daukaus",
       "awayTeam": "Bo Nickal",
       "homeScore": "L",
-      "awayScore": "L"
+      "awayScore": "W"
     },
     {
       "league": "UFC Freedom 250: Topuria vs. Gaethje",
-      "status": "Not Started",
+      "status": "Finished",
       "startTime": "2026-06-14T22:00:00+00:00",
       "homeTeam": "Steve Garcia",
       "awayTeam": "Diego Lopes",
       "homeScore": "L",
-      "awayScore": "L"
+      "awayScore": "W"
     },
     {
       "league": "NBA",
