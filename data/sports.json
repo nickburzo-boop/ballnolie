@@ -1,23 +1,4 @@
 {
-  "updatedAt": "2026-06-16T22:30:14.113Z",
-  "games": [
-    {
-      "league": "UFC Freedom 250: Topuria vs. Gaethje",
-      "status": "Finished",
-      "startTime": "2026-06-15T01:30:00+00:00",
-      "homeTeam": "Derrick Lewis",
-      "awayTeam": "Josh Hokit",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC Freedom 250: Topuria vs. Gaethje",
-      "status": "Finished",
-      "startTime": "2026-06-15T02:30:00+00:00",
-      "homeTeam": "Ciryl Gane",
-      "awayTeam": "Alex Pereira",
-      "homeScore": "W",
-      "awayScore": "L"
-    }
-  ]
+  "updatedAt": "2026-06-17T00:22:29.070Z",
+  "games": []
 }
