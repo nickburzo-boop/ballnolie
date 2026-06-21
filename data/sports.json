@@ -1,4 +1,77 @@
 {
-  "updatedAt": "2026-06-20T23:15:41.106Z",
-  "games": []
+  "updatedAt": "2026-06-21T01:59:38.154Z",
+  "games": [
+    {
+      "league": "UFC Fight Night: Kape vs. Horiguchi",
+      "status": "Cancelled",
+      "startTime": "2026-06-20T13:00:00+00:00",
+      "homeTeam": "Ethyn Ewing",
+      "awayTeam": "Farid Basharat",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Kape vs. Horiguchi",
+      "status": "Cancelled",
+      "startTime": "2026-06-20T13:00:00+00:00",
+      "homeTeam": "JosÃ© Luiz",
+      "awayTeam": "Jhonata Diniz",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Kape vs. Horiguchi 2",
+      "status": "Finished",
+      "startTime": "2026-06-20T13:00:00+00:00",
+      "homeTeam": "Otari Tanzilovi",
+      "awayTeam": "Shane Collins",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Kape vs. Horiguchi",
+      "status": "Cancelled",
+      "startTime": "2026-06-20T16:00:00+00:00",
+      "homeTeam": "Vinicius Oliveira",
+      "awayTeam": "Giga Chikadze",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Kape vs. Horiguchi 2",
+      "status": "Walkouts",
+      "startTime": "2026-06-20T21:00:00+00:00",
+      "homeTeam": "Kyoji Horiguchi",
+      "awayTeam": "Manel Kape",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Kape vs. Horiguchi 2",
+      "status": "Finished",
+      "startTime": "2026-06-20T21:00:00+00:00",
+      "homeTeam": "Mitch Raposo",
+      "awayTeam": "Allan Nascimento",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Kape vs. Horiguchi 2",
+      "status": "Finished",
+      "startTime": "2026-06-20T21:00:00+00:00",
+      "homeTeam": "Michael Aswell",
+      "awayTeam": "Gaston BolaÃ±os",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "NBA",
+      "status": "Scheduled",
+      "startTime": "2026-06-20T00:30:00.000Z",
+      "homeTeam": "San Antonio Spurs",
+      "awayTeam": "New York Knicks",
+      "homeScore": "",
+      "awayScore": ""
+    }
+  ]
 }
