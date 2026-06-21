@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T01:59:38.154Z",
+  "updatedAt": "2026-06-21T07:02:00.037Z",
   "games": [
     {
       "league": "UFC Fight Night: Kape vs. Horiguchi",
@@ -39,12 +39,12 @@
     },
     {
       "league": "UFC Fight Night: Kape vs. Horiguchi 2",
-      "status": "Walkouts",
+      "status": "Finished",
       "startTime": "2026-06-20T21:00:00+00:00",
       "homeTeam": "Kyoji Horiguchi",
       "awayTeam": "Manel Kape",
       "homeScore": "L",
-      "awayScore": "L"
+      "awayScore": "W"
     },
     {
       "league": "UFC Fight Night: Kape vs. Horiguchi 2",
