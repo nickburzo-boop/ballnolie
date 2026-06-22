@@ -1,77 +1,41 @@
 {
-  "updatedAt": "2026-06-21T23:51:58.386Z",
+  "updatedAt": "2026-06-22T05:06:29.163Z",
   "games": [
     {
-      "league": "UFC Fight Night: Kape vs. Horiguchi",
-      "status": "Cancelled",
-      "startTime": "2026-06-20T13:00:00+00:00",
-      "homeTeam": "Ethyn Ewing",
-      "awayTeam": "Farid Basharat",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Kape vs. Horiguchi",
-      "status": "Cancelled",
-      "startTime": "2026-06-20T13:00:00+00:00",
-      "homeTeam": "JosÃ© Luiz",
-      "awayTeam": "Jhonata Diniz",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
       "league": "UFC Fight Night: Kape vs. Horiguchi 2",
       "status": "Finished",
-      "startTime": "2026-06-20T13:00:00+00:00",
-      "homeTeam": "Otari Tanzilovi",
-      "awayTeam": "Shane Collins",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC Fight Night: Kape vs. Horiguchi",
-      "status": "Cancelled",
-      "startTime": "2026-06-20T16:00:00+00:00",
-      "homeTeam": "Vinicius Oliveira",
-      "awayTeam": "Giga Chikadze",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Kape vs. Horiguchi 2",
-      "status": "Finished",
-      "startTime": "2026-06-20T21:00:00+00:00",
-      "homeTeam": "Kyoji Horiguchi",
-      "awayTeam": "Manel Kape",
+      "startTime": "2026-06-21T00:15:00+00:00",
+      "homeTeam": "Andre Fili",
+      "awayTeam": "Vinicius Oliveira",
       "homeScore": "L",
       "awayScore": "W"
     },
     {
       "league": "UFC Fight Night: Kape vs. Horiguchi 2",
       "status": "Finished",
-      "startTime": "2026-06-20T21:00:00+00:00",
-      "homeTeam": "Mitch Raposo",
-      "awayTeam": "Allan Nascimento",
+      "startTime": "2026-06-21T00:45:00+00:00",
+      "homeTeam": "Murtazali Magomedov",
+      "awayTeam": "Melsik Baghdasaryan",
       "homeScore": "W",
       "awayScore": "L"
     },
     {
       "league": "UFC Fight Night: Kape vs. Horiguchi 2",
       "status": "Finished",
-      "startTime": "2026-06-20T21:00:00+00:00",
-      "homeTeam": "Michael Aswell",
-      "awayTeam": "Gaston BolaÃ±os",
-      "homeScore": "L",
-      "awayScore": "W"
+      "startTime": "2026-06-21T01:00:00+00:00",
+      "homeTeam": "Christian Rodriguez",
+      "awayTeam": "Hyder Amil",
+      "homeScore": "W",
+      "awayScore": "L"
     },
     {
-      "league": "NBA",
-      "status": "Scheduled",
-      "startTime": "2026-06-20T00:30:00.000Z",
-      "homeTeam": "San Antonio Spurs",
-      "awayTeam": "New York Knicks",
-      "homeScore": "",
-      "awayScore": ""
+      "league": "UFC Fight Night: Kape vs. Horiguchi 2",
+      "status": "Finished",
+      "startTime": "2026-06-21T01:40:00+00:00",
+      "homeTeam": "Navajo Stirling",
+      "awayTeam": "Ion Cutelaba",
+      "homeScore": "W",
+      "awayScore": "L"
     }
   ]
 }
