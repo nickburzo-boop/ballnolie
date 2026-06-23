@@ -1,41 +1,4 @@
 {
-  "updatedAt": "2026-06-22T23:51:12.745Z",
-  "games": [
-    {
-      "league": "UFC Fight Night: Kape vs. Horiguchi 2",
-      "status": "Finished",
-      "startTime": "2026-06-21T00:15:00+00:00",
-      "homeTeam": "Andre Fili",
-      "awayTeam": "Vinicius Oliveira",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC Fight Night: Kape vs. Horiguchi 2",
-      "status": "Finished",
-      "startTime": "2026-06-21T00:45:00+00:00",
-      "homeTeam": "Murtazali Magomedov",
-      "awayTeam": "Melsik Baghdasaryan",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Kape vs. Horiguchi 2",
-      "status": "Finished",
-      "startTime": "2026-06-21T01:00:00+00:00",
-      "homeTeam": "Christian Rodriguez",
-      "awayTeam": "Hyder Amil",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Kape vs. Horiguchi 2",
-      "status": "Finished",
-      "startTime": "2026-06-21T01:40:00+00:00",
-      "homeTeam": "Navajo Stirling",
-      "awayTeam": "Ion Cutelaba",
-      "homeScore": "W",
-      "awayScore": "L"
-    }
-  ]
+  "updatedAt": "2026-06-23T04:05:03.743Z",
+  "games": []
 }
