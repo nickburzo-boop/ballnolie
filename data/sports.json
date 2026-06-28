@@ -1,4 +1,68 @@
 {
-  "updatedAt": "2026-06-27T22:37:51.379Z",
-  "games": []
+  "updatedAt": "2026-06-28T00:08:21.385Z",
+  "games": [
+    {
+      "league": "UFC Fight Night: Fiziev vs. Torres",
+      "status": "Cancelled",
+      "startTime": "2026-06-27T05:00:00+00:00",
+      "homeTeam": "Andreas Gustafsson",
+      "awayTeam": "Daniil Donchenko",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Fiziev vs. Torres",
+      "status": "Finished",
+      "startTime": "2026-06-27T05:00:00+00:00",
+      "homeTeam": "Andrey Pulyaev",
+      "awayTeam": "Nursulton Ruziboev",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Fiziev vs. Torres",
+      "status": "Cancelled",
+      "startTime": "2026-06-27T08:00:00+00:00",
+      "homeTeam": "Marvin Vettori",
+      "awayTeam": "Ismail Naurdiev",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Fiziev vs. Torres",
+      "status": "Finished",
+      "startTime": "2026-06-27T08:00:00+00:00",
+      "homeTeam": "Brunno Ferreira",
+      "awayTeam": "Ikram Aliskerov",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Fiziev vs. Torres",
+      "status": "Finished",
+      "startTime": "2026-06-27T13:00:00+00:00",
+      "homeTeam": "Jefferson Nascimento",
+      "awayTeam": "Tahir Abdullayev",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Fiziev vs. Torres",
+      "status": "Finished",
+      "startTime": "2026-06-27T13:30:00+00:00",
+      "homeTeam": "Jean Matsumoto",
+      "awayTeam": "Bekzat Almakhan",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Fiziev vs. Torres",
+      "status": "Finished",
+      "startTime": "2026-06-27T14:15:00+00:00",
+      "homeTeam": "Theodor Berggren",
+      "awayTeam": "Daniil Donchenko",
+      "homeScore": "L",
+      "awayScore": "W"
+    }
+  ]
 }
