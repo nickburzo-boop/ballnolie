@@ -1,68 +1,68 @@
 {
-  "updatedAt": "2026-07-12T23:28:57.267Z",
+  "updatedAt": "2026-07-13T01:11:28.277Z",
   "games": [
     {
-      "league": "UFC 329",
-      "status": "Cancelled",
-      "startTime": "2026-07-11T12:00:00+00:00",
-      "homeTeam": "TBA",
-      "awayTeam": "Opponent TBA",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
       "league": "UFC 329: McGregor vs. Holloway 2",
-      "status": "Cancelled",
-      "startTime": "2026-07-11T13:00:00+00:00",
-      "homeTeam": "Cody Durden",
-      "awayTeam": "Ode' Osbourne",
+      "status": "Finished",
+      "startTime": "2026-07-12T00:00:00+00:00",
+      "homeTeam": "Elisha Ellison",
+      "awayTeam": "Gable Steveson",
       "homeScore": "L",
-      "awayScore": "L"
+      "awayScore": "W"
     },
     {
       "league": "UFC 329: McGregor vs. Holloway 2",
       "status": "Finished",
-      "startTime": "2026-07-11T21:00:00+00:00",
-      "homeTeam": "Wang Cong",
-      "awayTeam": "Tracy Cortez",
+      "startTime": "2026-07-12T00:30:00+00:00",
+      "homeTeam": "Robert Whittaker",
+      "awayTeam": "Nikita Krylov",
       "homeScore": "W",
       "awayScore": "L"
     },
     {
       "league": "UFC 329: McGregor vs. Holloway 2",
-      "status": "Cancelled",
-      "startTime": "2026-07-11T21:00:00+00:00",
-      "homeTeam": "Ethyn Ewing",
-      "awayTeam": "Farid Basharat",
+      "status": "Finished",
+      "startTime": "2026-07-12T01:00:00+00:00",
+      "homeTeam": "Lone'er Kavanagh",
+      "awayTeam": "Brandon Royval",
       "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC 329: McGregor vs. Holloway 2",
+      "status": "Finished",
+      "startTime": "2026-07-12T01:00:00+00:00",
+      "homeTeam": "Terrance McKinney",
+      "awayTeam": "King Green",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC 329: McGregor vs. Holloway 2",
+      "status": "Finished",
+      "startTime": "2026-07-12T01:30:00+00:00",
+      "homeTeam": "Mario Bautista",
+      "awayTeam": "Cory Sandhagen",
+      "homeScore": "W",
       "awayScore": "L"
     },
     {
       "league": "UFC 329: McGregor vs. Holloway 2",
       "status": "Finished",
-      "startTime": "2026-07-11T21:00:00+00:00",
-      "homeTeam": "Cody Durden",
-      "awayTeam": "Alessandro Costa",
-      "homeScore": "L",
-      "awayScore": "W"
+      "startTime": "2026-07-12T02:30:00+00:00",
+      "homeTeam": "Max Holloway",
+      "awayTeam": "Conor McGregor",
+      "homeScore": "W",
+      "awayScore": "L"
     },
     {
       "league": "UFC 329: McGregor vs. Holloway 2",
       "status": "Finished",
-      "startTime": "2026-07-11T21:25:00+00:00",
-      "homeTeam": "Zachary Reese",
-      "awayTeam": "Ryan Gandra",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC 329: McGregor vs. Holloway 2",
-      "status": "Finished",
-      "startTime": "2026-07-11T21:40:00+00:00",
-      "homeTeam": "John Garza",
-      "awayTeam": "Farid Basharat",
-      "homeScore": "L",
-      "awayScore": "W"
+      "startTime": "2026-07-12T02:30:00+00:00",
+      "homeTeam": "Paddy Pimblett",
+      "awayTeam": "BenoÃ®t Saint Denis",
+      "homeScore": "W",
+      "awayScore": "L"
     }
   ]
 }
