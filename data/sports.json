@@ -1,68 +1,59 @@
 {
-  "updatedAt": "2026-07-19T23:31:49.858Z",
+  "updatedAt": "2026-07-20T03:42:14.802Z",
   "games": [
     {
-      "league": "UFC Fight Night: Oklahoma City",
-      "status": "Cancelled",
-      "startTime": "2026-07-18T13:00:00+00:00",
-      "homeTeam": "Marc-Andre Barriault",
-      "awayTeam": "Brad Tavares",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Oklahoma City",
-      "status": "Cancelled",
-      "startTime": "2026-07-18T13:00:00+00:00",
-      "homeTeam": "Dione Barbosa",
-      "awayTeam": "Veronica Hardy",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
       "league": "UFC Fight Night: Du Plessis vs. Usman",
       "status": "Cancelled",
-      "startTime": "2026-07-18T13:00:00+00:00",
-      "homeTeam": "Alvin Hines",
-      "awayTeam": "Allen Frye Jr.",
+      "startTime": "2026-07-19T00:00:00+00:00",
+      "homeTeam": "Jacobe Smith",
+      "awayTeam": "Kevin Holland",
       "homeScore": "L",
       "awayScore": "L"
     },
     {
       "league": "UFC Fight Night: Du Plessis vs. Usman",
       "status": "Finished",
-      "startTime": "2026-07-18T13:00:00+00:00",
-      "homeTeam": "Seokhyeon Ko",
-      "awayTeam": "Jean-Paul Lebosnoyani",
+      "startTime": "2026-07-19T00:00:00+00:00",
+      "homeTeam": "Alberto Montes",
+      "awayTeam": "Tommy McMillen",
       "homeScore": "L",
       "awayScore": "W"
     },
     {
-      "league": "UFC Fight Night: Oklahoma City",
-      "status": "Cancelled",
-      "startTime": "2026-07-18T16:00:00+00:00",
+      "league": "UFC Fight Night: Du Plessis vs. Usman",
+      "status": "Finished",
+      "startTime": "2026-07-19T00:45:00+00:00",
       "homeTeam": "Fatima Kline",
-      "awayTeam": "Amanda Ribas",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Du Plessis vs. Usman",
-      "status": "Finished",
-      "startTime": "2026-07-18T21:00:00+00:00",
-      "homeTeam": "Stewart Nicoll",
-      "awayTeam": "Alden Coria",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC Fight Night: Du Plessis vs. Usman",
-      "status": "Finished",
-      "startTime": "2026-07-18T21:00:00+00:00",
-      "homeTeam": "Dione Barbosa",
-      "awayTeam": "Anna Melisano",
+      "awayTeam": "Tabatha Ricci",
       "homeScore": "W",
       "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Du Plessis vs. Usman",
+      "status": "Finished",
+      "startTime": "2026-07-19T01:00:00+00:00",
+      "homeTeam": "Mitch Ramirez",
+      "awayTeam": "Chase Hooper",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Du Plessis vs. Usman",
+      "status": "Finished",
+      "startTime": "2026-07-19T01:40:00+00:00",
+      "homeTeam": "Christian Leroy Duncan",
+      "awayTeam": "Jared Cannonier",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Du Plessis vs. Usman",
+      "status": "Finished",
+      "startTime": "2026-07-19T02:15:00+00:00",
+      "homeTeam": "Kamaru Usman",
+      "awayTeam": "Dricus Du Plessis",
+      "homeScore": "L",
+      "awayScore": "W"
     }
   ]
 }
