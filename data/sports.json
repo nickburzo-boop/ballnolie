@@ -1,4 +1,68 @@
 {
-  "updatedAt": "2026-08-01T22:30:53.781Z",
-  "games": []
+  "updatedAt": "2026-08-02T00:01:29.336Z",
+  "games": [
+    {
+      "league": "UFC Fight Night: Medic vs. Rodriguez",
+      "status": "Finished",
+      "startTime": "2026-08-01T06:00:00+00:00",
+      "homeTeam": "Tofiq Musayev",
+      "awayTeam": "Ludovit Klein",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Medic vs. Rodriguez",
+      "status": "Cancelled",
+      "startTime": "2026-08-01T09:00:00+00:00",
+      "homeTeam": "Johnny Walker",
+      "awayTeam": "Ante Delija",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Medic vs. Rodriguez",
+      "status": "Finished",
+      "startTime": "2026-08-01T14:00:00+00:00",
+      "homeTeam": "Mark Vologdin",
+      "awayTeam": "Borislav Nikolic",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Medic vs. Rodriguez",
+      "status": "Finished",
+      "startTime": "2026-08-01T14:00:00+00:00",
+      "homeTeam": "Stephanie Luciano",
+      "awayTeam": "Marina Spasic",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Medic vs. Rodriguez",
+      "status": "Finished",
+      "startTime": "2026-08-01T14:15:00+00:00",
+      "homeTeam": "Alexander Poppeck",
+      "awayTeam": "Jovan Leka",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Medic vs. Rodriguez",
+      "status": "Finished",
+      "startTime": "2026-08-01T14:45:00+00:00",
+      "homeTeam": "Hailey Cowan",
+      "awayTeam": "Nina MiloÅ¡evic",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Medic vs. Rodriguez",
+      "status": "Finished",
+      "startTime": "2026-08-01T15:00:00+00:00",
+      "homeTeam": "Kyle Prepolec",
+      "awayTeam": "Mateusz Rebecki",
+      "homeScore": "L",
+      "awayScore": "W"
+    }
+  ]
 }
