@@ -1,59 +1,50 @@
 {
-  "updatedAt": "2026-08-09T23:36:42.468Z",
+  "updatedAt": "2026-08-10T02:15:49.845Z",
   "games": [
     {
       "league": "UFC Fight Night: Gamrot vs Salkilld",
-      "status": "Not Started",
-      "startTime": "2026-08-08T21:00:00+00:00",
-      "homeTeam": "Jessie Rosas",
-      "awayTeam": "Miles Johns",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Gamrot vs Salkilld",
       "status": "Finished",
-      "startTime": "2026-08-08T21:30:00+00:00",
-      "homeTeam": "Ravena Oliveira",
-      "awayTeam": "Juliana Miller",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC Fight Night: Gamrot vs Salkilld",
-      "status": "Finished",
-      "startTime": "2026-08-08T22:15:00+00:00",
-      "homeTeam": "Richie Miranda",
-      "awayTeam": "Manoel Sousa",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC Fight Night: Gamrot vs Salkilld",
-      "status": "Finished",
-      "startTime": "2026-08-08T22:45:00+00:00",
-      "homeTeam": "Henrique da Silva Lopes",
-      "awayTeam": "Louie Sutherland",
+      "startTime": "2026-08-09T00:10:00+00:00",
+      "homeTeam": "Billy Ray Goff",
+      "awayTeam": "Ty Miller",
       "homeScore": "W",
       "awayScore": "L"
     },
     {
       "league": "UFC Fight Night: Gamrot vs Salkilld",
       "status": "Finished",
-      "startTime": "2026-08-08T23:00:00+00:00",
-      "homeTeam": "Guilherme Pat",
-      "awayTeam": "Steven Asplund",
+      "startTime": "2026-08-09T00:40:00+00:00",
+      "homeTeam": "Alexia Thainara",
+      "awayTeam": "Amanda Lemos",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Gamrot vs Salkilld",
+      "status": "Finished",
+      "startTime": "2026-08-09T01:30:00+00:00",
+      "homeTeam": "Yadier del Valle",
+      "awayTeam": "Darren Elkins",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Gamrot vs Salkilld",
+      "status": "Finished",
+      "startTime": "2026-08-09T01:40:00+00:00",
+      "homeTeam": "Billy Quarantillo",
+      "awayTeam": "Diego Ferreira",
       "homeScore": "L",
       "awayScore": "W"
     },
     {
       "league": "UFC Fight Night: Gamrot vs Salkilld",
       "status": "Finished",
-      "startTime": "2026-08-08T23:10:00+00:00",
-      "homeTeam": "Bruno Lopes",
-      "awayTeam": "Diyar Nurgozhay",
-      "homeScore": "L",
-      "awayScore": "W"
+      "startTime": "2026-08-09T02:10:00+00:00",
+      "homeTeam": "Quillan Salkilld",
+      "awayTeam": "Mateusz Gamrot",
+      "homeScore": "W",
+      "awayScore": "L"
     }
   ]
 }
