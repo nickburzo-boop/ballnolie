@@ -1,53 +1,53 @@
 {
-  "updatedAt": "2026-08-12T14:37:21.995Z",
+  "updatedAt": "2026-08-12T16:02:26.607Z",
   "assets": [
     {
       "name": "Bitcoin",
       "symbol": "BTC",
-      "priceUsd": 63511.903309576584,
-      "change24h": -0.75871436
+      "priceUsd": 63370.536860427615,
+      "change24h": -0.28624218
     },
     {
       "name": "Ethereum",
       "symbol": "ETH",
-      "priceUsd": 1888.54406159042,
-      "change24h": 0.4884282
+      "priceUsd": 1890.5885204544136,
+      "change24h": 1.57216824
     },
     {
       "name": "Tether USDt",
       "symbol": "USDT",
-      "priceUsd": 0.9990065552287108,
-      "change24h": -0.00493602
+      "priceUsd": 0.9988164202833455,
+      "change24h": -0.0286213
     },
     {
       "name": "BNB",
       "symbol": "BNB",
-      "priceUsd": 610.9711365212769,
-      "change24h": 0.17176143
+      "priceUsd": 610.560461436671,
+      "change24h": 0.56929133
     },
     {
       "name": "USDC",
       "symbol": "USDC",
-      "priceUsd": 0.9997387049886857,
-      "change24h": -0.00069454
+      "priceUsd": 0.9997381036515905,
+      "change24h": -0.0029514
     },
     {
       "name": "XRP",
       "symbol": "XRP",
-      "priceUsd": 1.0125297712989312,
-      "change24h": 0.72508288
+      "priceUsd": 1.01130897982338,
+      "change24h": 0.94146062
     },
     {
       "name": "Solana",
       "symbol": "SOL",
-      "priceUsd": 75.66937933568104,
-      "change24h": 0.17033679
+      "priceUsd": 75.68366061296715,
+      "change24h": 1.18911601
     },
     {
       "name": "TRON",
       "symbol": "TRX",
-      "priceUsd": 0.3357128312042296,
-      "change24h": 0.09493021
+      "priceUsd": 0.33571403748492623,
+      "change24h": 0.34389496
     }
   ]
 }
