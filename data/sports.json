@@ -1,4 +1,59 @@
 {
-  "updatedAt": "2026-08-15T23:47:19.120Z",
-  "games": []
+  "updatedAt": "2026-08-16T01:43:31.072Z",
+  "games": [
+    {
+      "league": "UFC 330: Makhachev vs. Machado Garry",
+      "status": "Not Started",
+      "startTime": "2026-08-15T17:00:00+00:00",
+      "homeTeam": "Chidi Njokuani",
+      "awayTeam": "Geoff Neal",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC 330: Makhachev vs. Machado Garry",
+      "status": "Cancelled",
+      "startTime": "2026-08-15T17:00:00+00:00",
+      "homeTeam": "Jasmine Jasudavicius",
+      "awayTeam": "Erin Blanchfield",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC 330: Makhachev vs. Machado Garry",
+      "status": "Finished",
+      "startTime": "2026-08-15T21:30:00+00:00",
+      "homeTeam": "Myktybek Orolbai",
+      "awayTeam": "Jeremiah Wells",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC 330: Makhachev vs. Machado Garry",
+      "status": "Finished",
+      "startTime": "2026-08-15T22:00:00+00:00",
+      "homeTeam": "Ramiz Brahimaj",
+      "awayTeam": "Neil Magny",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC 330: Makhachev vs. Machado Garry",
+      "status": "Finished",
+      "startTime": "2026-08-15T23:00:00+00:00",
+      "homeTeam": "Tresean Gore",
+      "awayTeam": "Vicente Luque",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC 330: Makhachev vs. Machado Garry",
+      "status": "Finished",
+      "startTime": "2026-08-15T23:45:00+00:00",
+      "homeTeam": "Eric McConico",
+      "awayTeam": "Donte Johnson",
+      "homeScore": "L",
+      "awayScore": "W"
+    }
+  ]
 }
