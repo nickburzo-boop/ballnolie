@@ -1,4 +1,50 @@
 {
-  "updatedAt": "2026-08-22T23:48:03.021Z",
-  "games": []
+  "updatedAt": "2026-08-23T01:45:54.730Z",
+  "games": [
+    {
+      "league": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "status": "Walkouts",
+      "startTime": "2026-08-22T16:00:00+00:00",
+      "homeTeam": "Vitor Petrino",
+      "awayTeam": "Serghei Spivac",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "status": "Not Started",
+      "startTime": "2026-08-22T16:00:00+00:00",
+      "homeTeam": "Gauge Young",
+      "awayTeam": "Kody Steele",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "status": "Finished",
+      "startTime": "2026-08-22T21:00:00+00:00",
+      "homeTeam": "Elise Reed",
+      "awayTeam": "Shanelle Dyer",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "status": "Finished",
+      "startTime": "2026-08-22T21:40:00+00:00",
+      "homeTeam": "Jackson McVey",
+      "awayTeam": "Wes Schultz",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "status": "Finished",
+      "startTime": "2026-08-22T22:40:00+00:00",
+      "homeTeam": "Shamil Gaziev",
+      "awayTeam": "Kennedy Nzechukwu",
+      "homeScore": "W",
+      "awayScore": "L"
+    }
+  ]
 }
