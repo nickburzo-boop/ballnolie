@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-23T01:45:54.730Z",
+  "updatedAt": "2026-08-23T03:08:21.321Z",
   "games": [
     {
       "league": "UFC Fight Night: Hernandez vs. Rodrigues",
-      "status": "Walkouts",
+      "status": "Finished",
       "startTime": "2026-08-22T16:00:00+00:00",
       "homeTeam": "Vitor Petrino",
       "awayTeam": "Serghei Spivac",
-      "homeScore": "L",
+      "homeScore": "W",
       "awayScore": "L"
     },
     {
