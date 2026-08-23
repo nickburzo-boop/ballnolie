@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T09:33:13.740Z",
+  "updatedAt": "2026-08-23T10:29:32.581Z",
   "games": [
     {
       "league": "UFC Fight Night: Hernandez vs. Rodrigues",
@@ -12,12 +12,21 @@
     },
     {
       "league": "UFC Fight Night: Hernandez vs. Rodrigues",
-      "status": "Not Started",
+      "status": "Cancelled",
       "startTime": "2026-08-22T16:00:00+00:00",
       "homeTeam": "Gauge Young",
       "awayTeam": "Kody Steele",
       "homeScore": "L",
       "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "status": "Finished",
+      "startTime": "2026-08-22T16:00:00+00:00",
+      "homeTeam": "Mason Jones",
+      "awayTeam": "MarQuel Mederos",
+      "homeScore": "L",
+      "awayScore": "W"
     },
     {
       "league": "UFC Fight Night: Hernandez vs. Rodrigues",
@@ -40,11 +49,20 @@
     {
       "league": "UFC Fight Night: Hernandez vs. Rodrigues",
       "status": "Finished",
-      "startTime": "2026-08-22T22:40:00+00:00",
-      "homeTeam": "Shamil Gaziev",
-      "awayTeam": "Kennedy Nzechukwu",
+      "startTime": "2026-08-22T21:45:00+00:00",
+      "homeTeam": "Stan Dorsainvil",
+      "awayTeam": "Gauge Young",
       "homeScore": "W",
       "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "status": "Finished",
+      "startTime": "2026-08-22T22:15:00+00:00",
+      "homeTeam": "Ryan Kuse",
+      "awayTeam": "Marcio Barbosa",
+      "homeScore": "L",
+      "awayScore": "W"
     }
   ]
 }
