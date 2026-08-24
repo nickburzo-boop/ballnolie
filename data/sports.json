@@ -1,68 +1,41 @@
 {
-  "updatedAt": "2026-08-23T23:48:41.294Z",
+  "updatedAt": "2026-08-24T01:43:11.632Z",
   "games": [
     {
       "league": "UFC Fight Night: Hernandez vs. Rodrigues",
       "status": "Finished",
-      "startTime": "2026-08-22T16:00:00+00:00",
-      "homeTeam": "Vitor Petrino",
-      "awayTeam": "Serghei Spivac",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Hernandez vs. Rodrigues",
-      "status": "Cancelled",
-      "startTime": "2026-08-22T16:00:00+00:00",
-      "homeTeam": "Gauge Young",
-      "awayTeam": "Kody Steele",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Hernandez vs. Rodrigues",
-      "status": "Finished",
-      "startTime": "2026-08-22T16:00:00+00:00",
-      "homeTeam": "Mason Jones",
-      "awayTeam": "MarQuel Mederos",
+      "startTime": "2026-08-23T00:00:00+00:00",
+      "homeTeam": "Terrance Chatman",
+      "awayTeam": "Anthony Wint",
       "homeScore": "L",
       "awayScore": "W"
     },
     {
       "league": "UFC Fight Night: Hernandez vs. Rodrigues",
       "status": "Finished",
-      "startTime": "2026-08-22T21:00:00+00:00",
-      "homeTeam": "Elise Reed",
-      "awayTeam": "Shanelle Dyer",
+      "startTime": "2026-08-23T00:30:00+00:00",
+      "homeTeam": "Jeisla Chaves",
+      "awayTeam": "Carli Judice",
       "homeScore": "L",
       "awayScore": "W"
     },
     {
       "league": "UFC Fight Night: Hernandez vs. Rodrigues",
       "status": "Finished",
-      "startTime": "2026-08-22T21:40:00+00:00",
-      "homeTeam": "Jackson McVey",
-      "awayTeam": "Wes Schultz",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Hernandez vs. Rodrigues",
-      "status": "Finished",
-      "startTime": "2026-08-22T21:45:00+00:00",
-      "homeTeam": "Stan Dorsainvil",
-      "awayTeam": "Gauge Young",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Hernandez vs. Rodrigues",
-      "status": "Finished",
-      "startTime": "2026-08-22T22:15:00+00:00",
-      "homeTeam": "Ryan Kuse",
-      "awayTeam": "Marcio Barbosa",
+      "startTime": "2026-08-23T01:30:00+00:00",
+      "homeTeam": "Roman Dolidze",
+      "awayTeam": "Reinier de Ridder",
       "homeScore": "L",
       "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "status": "Finished",
+      "startTime": "2026-08-23T02:30:00+00:00",
+      "homeTeam": "Gregory Rodrigues",
+      "awayTeam": "Anthony Hernandez",
+      "homeScore": "W",
+      "awayScore": "L"
     }
   ]
 }
