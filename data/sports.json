@@ -1,18 +1,9 @@
 {
-  "updatedAt": "2026-08-28T05:34:09.453Z",
+  "updatedAt": "2026-08-28T18:27:43.132Z",
   "games": [
     {
       "league": "Road to UFC Season 5: Semifinals",
-      "status": "Not Started",
-      "startTime": "2026-08-27T20:00:00+00:00",
-      "homeTeam": "Maheshate",
-      "awayTeam": "Darrius Flowers",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "Road to UFC Season 5: Semifinals",
-      "status": "Not Started",
+      "status": "Pre-Fight",
       "startTime": "2026-08-27T20:00:00+00:00",
       "homeTeam": "Tre'ston Vines",
       "awayTeam": "Yilizhati Maimaitijiang",
