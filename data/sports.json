@@ -1,12 +1,57 @@
 {
-  "updatedAt": "2026-08-28T18:27:43.132Z",
+  "updatedAt": "2026-08-29T01:52:46.764Z",
   "games": [
     {
       "league": "Road to UFC Season 5: Semifinals",
-      "status": "Pre-Fight",
-      "startTime": "2026-08-27T20:00:00+00:00",
-      "homeTeam": "Tre'ston Vines",
-      "awayTeam": "Yilizhati Maimaitijiang",
+      "status": "Not Started",
+      "startTime": "2026-08-28T09:00:00+00:00",
+      "homeTeam": "Maheshate",
+      "awayTeam": "Darrius Flowers",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Nurmagomedov vs. Song",
+      "status": "Not Started",
+      "startTime": "2026-08-28T23:00:00+00:00",
+      "homeTeam": "Kevin Borjas",
+      "awayTeam": "Rei Tsuruya",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Nurmagomedov vs. Song",
+      "status": "Not Started",
+      "startTime": "2026-08-28T23:00:00+00:00",
+      "homeTeam": "Sean Woodson",
+      "awayTeam": "Jack Jenkins",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Nurmagomedov vs. Song",
+      "status": "Not Started",
+      "startTime": "2026-08-28T23:00:00+00:00",
+      "homeTeam": "Andre Lima",
+      "awayTeam": "Namsrai Batbayar",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Nurmagomedov vs. Song",
+      "status": "Not Started",
+      "startTime": "2026-08-28T23:00:00+00:00",
+      "homeTeam": "Julia Polastri",
+      "awayTeam": "Jingnan Xiong",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Nurmagomedov vs. Song",
+      "status": "Not Started",
+      "startTime": "2026-08-28T23:00:00+00:00",
+      "homeTeam": "Cameron Nelson",
+      "awayTeam": "Ding Meng",
       "homeScore": "L",
       "awayScore": "L"
     }
