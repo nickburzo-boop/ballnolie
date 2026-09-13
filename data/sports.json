@@ -1,4 +1,68 @@
 {
-  "updatedAt": "2026-09-12T22:06:08.754Z",
-  "games": []
+  "updatedAt": "2026-09-13T00:10:15.349Z",
+  "games": [
+    {
+      "league": "Noche UFC: Rodriguez vs. Silva",
+      "status": "Cancelled",
+      "startTime": "2026-09-12T10:00:00+00:00",
+      "homeTeam": "Yousri Belgaroui",
+      "awayTeam": "Kelvin Gastelum",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "Noche UFC: Silva vs. Delgado",
+      "status": "Finished",
+      "startTime": "2026-09-12T10:00:00+00:00",
+      "homeTeam": "Rongzhu",
+      "awayTeam": "Rafa Garcia",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "Noche UFC: Silva vs. Delgado",
+      "status": "Finished",
+      "startTime": "2026-09-12T10:00:00+00:00",
+      "homeTeam": "Tommy Gantt",
+      "awayTeam": "Drakkar Klose",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "Noche UFC: Silva vs. Delgado",
+      "status": "Finished",
+      "startTime": "2026-09-12T18:00:00+00:00",
+      "homeTeam": "Regina Tarin",
+      "awayTeam": "JJ Aldrich",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "Noche UFC: Silva vs. Delgado",
+      "status": "Cancelled",
+      "startTime": "2026-09-12T18:00:00+00:00",
+      "homeTeam": "Rodrigo Vera",
+      "awayTeam": "Ramiro Jimenez",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "Noche UFC: Silva vs. Delgado",
+      "status": "Finished",
+      "startTime": "2026-09-12T18:45:00+00:00",
+      "homeTeam": "Jessie Rosas",
+      "awayTeam": "Sean King",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "Noche UFC: Silva vs. Delgado",
+      "status": "Finished",
+      "startTime": "2026-09-12T19:45:00+00:00",
+      "homeTeam": "Djorden Santos",
+      "awayTeam": "Yousri Belgaroui",
+      "homeScore": "L",
+      "awayScore": "W"
+    }
+  ]
 }
