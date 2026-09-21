@@ -1,48 +1,66 @@
 {
-  "updatedAt": "2026-09-20T23:06:09.604Z",
+  "updatedAt": "2026-09-21T01:28:04.401Z",
   "games": [
     {
       "league": "UFC 331: Van vs. Pantoja 2",
       "status": "Finished",
-      "startTime": "2026-09-19T13:30:00+00:00",
-      "homeTeam": "Brunno Ferreira",
-      "awayTeam": "Edmen Shahbazyan",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC 331: Van vs. Pantoja 2",
-      "status": "Finished",
-      "startTime": "2026-09-19T15:00:00+00:00",
-      "homeTeam": "JooSang Yoo",
-      "awayTeam": "Michael Aswell",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC 331: Van vs. Pantoja 2",
-      "status": "Finished",
-      "startTime": "2026-09-19T21:30:00+00:00",
-      "homeTeam": "Joanderson Brito",
-      "awayTeam": "Giga Chikadze",
+      "startTime": "2026-09-20T00:00:00+00:00",
+      "homeTeam": "Robelis Despaigne",
+      "awayTeam": "Tai Tuivasa",
       "homeScore": "W",
       "awayScore": "L"
     },
     {
       "league": "UFC 331: Van vs. Pantoja 2",
       "status": "Finished",
-      "startTime": "2026-09-19T22:10:00+00:00",
-      "homeTeam": "Eduarda Moura",
-      "awayTeam": "Casey O'Neill",
+      "startTime": "2026-09-20T00:30:00+00:00",
+      "homeTeam": "Charles Jourdain",
+      "awayTeam": "Marlon Vera",
       "homeScore": "L",
       "awayScore": "W"
     },
     {
       "league": "UFC 331: Van vs. Pantoja 2",
       "status": "Finished",
-      "startTime": "2026-09-19T23:00:00+00:00",
-      "homeTeam": "Ozzy Diaz",
-      "awayTeam": "Ryan Gandra",
+      "startTime": "2026-09-20T01:00:00+00:00",
+      "homeTeam": "Iwo Baraniewski",
+      "awayTeam": "Alonzo Menifield",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC 331: Van vs. Pantoja 2",
+      "status": "Cancelled",
+      "startTime": "2026-09-20T01:30:00+00:00",
+      "homeTeam": "Brian Ortega",
+      "awayTeam": "Renato Moicano",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC 331: Van vs. Pantoja 2",
+      "status": "Finished",
+      "startTime": "2026-09-20T01:45:00+00:00",
+      "homeTeam": "Sean Sharaf",
+      "awayTeam": "Gable Steveson",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC 331: Van vs. Pantoja 2",
+      "status": "Finished",
+      "startTime": "2026-09-20T02:15:00+00:00",
+      "homeTeam": "Dooho Choi",
+      "awayTeam": "Patricio Pitbull",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC 331: Van vs. Pantoja 2",
+      "status": "Finished",
+      "startTime": "2026-09-20T02:45:00+00:00",
+      "homeTeam": "Mauricio Ruffy",
+      "awayTeam": "Arman Tsarukyan",
       "homeScore": "L",
       "awayScore": "W"
     }
