@@ -1,4 +1,68 @@
 {
-  "updatedAt": "2026-09-26T23:48:11.000Z",
-  "games": []
+  "updatedAt": "2026-09-27T04:50:27.010Z",
+  "games": [
+    {
+      "league": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+      "status": "Finished",
+      "startTime": "2026-09-26T21:00:00+00:00",
+      "homeTeam": "Yazmin Jauregui",
+      "awayTeam": "Vanessa Demopoulos",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+      "status": "Cancelled",
+      "startTime": "2026-09-26T21:15:00+00:00",
+      "homeTeam": "Sedriques Dumas",
+      "awayTeam": "Mickey Gall",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+      "status": "Finished",
+      "startTime": "2026-09-26T21:30:00+00:00",
+      "homeTeam": "Alatengheili",
+      "awayTeam": "John Castaneda",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+      "status": "Finished",
+      "startTime": "2026-09-26T22:00:00+00:00",
+      "homeTeam": "Ricky Simon",
+      "awayTeam": "Montel Jackson",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+      "status": "Finished",
+      "startTime": "2026-09-26T22:20:00+00:00",
+      "homeTeam": "Josiah Harrell",
+      "awayTeam": "Elves Brener",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+      "status": "Finished",
+      "startTime": "2026-09-26T22:45:00+00:00",
+      "homeTeam": "Christian Edwards",
+      "awayTeam": "Rodolfo Bellato",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+      "status": "Finished",
+      "startTime": "2026-09-26T23:10:00+00:00",
+      "homeTeam": "Robert Bryczek",
+      "awayTeam": "Rodolfo Vieira",
+      "homeScore": "L",
+      "awayScore": "W"
+    }
+  ]
 }
