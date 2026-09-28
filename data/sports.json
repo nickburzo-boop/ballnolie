@@ -1,66 +1,48 @@
 {
-  "updatedAt": "2026-09-27T22:30:21.867Z",
+  "updatedAt": "2026-09-28T01:29:12.159Z",
   "games": [
     {
       "league": "UFC Fight Night: Rosas Jr. vs. Barcelos",
       "status": "Finished",
-      "startTime": "2026-09-26T21:00:00+00:00",
-      "homeTeam": "Yazmin Jauregui",
-      "awayTeam": "Vanessa Demopoulos",
+      "startTime": "2026-09-27T00:10:00+00:00",
+      "homeTeam": "Valesca Machado",
+      "awayTeam": "Melissa Amaya",
       "homeScore": "W",
       "awayScore": "L"
     },
     {
       "league": "UFC Fight Night: Rosas Jr. vs. Barcelos",
-      "status": "Cancelled",
-      "startTime": "2026-09-26T21:15:00+00:00",
+      "status": "Finished",
+      "startTime": "2026-09-27T00:40:00+00:00",
+      "homeTeam": "Ilimbek Akylbek Uulu",
+      "awayTeam": "Mehemmedeli Osmanli",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+      "status": "Finished",
+      "startTime": "2026-09-27T01:10:00+00:00",
       "homeTeam": "Sedriques Dumas",
-      "awayTeam": "Mickey Gall",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Rosas Jr. vs. Barcelos",
-      "status": "Finished",
-      "startTime": "2026-09-26T21:30:00+00:00",
-      "homeTeam": "Alatengheili",
-      "awayTeam": "John Castaneda",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Rosas Jr. vs. Barcelos",
-      "status": "Finished",
-      "startTime": "2026-09-26T22:00:00+00:00",
-      "homeTeam": "Ricky Simon",
-      "awayTeam": "Montel Jackson",
+      "awayTeam": "Luis Hernandez",
       "homeScore": "L",
       "awayScore": "W"
     },
     {
       "league": "UFC Fight Night: Rosas Jr. vs. Barcelos",
       "status": "Finished",
-      "startTime": "2026-09-26T22:20:00+00:00",
-      "homeTeam": "Josiah Harrell",
-      "awayTeam": "Elves Brener",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC Fight Night: Rosas Jr. vs. Barcelos",
-      "status": "Finished",
-      "startTime": "2026-09-26T22:45:00+00:00",
-      "homeTeam": "Christian Edwards",
-      "awayTeam": "Rodolfo Bellato",
+      "startTime": "2026-09-27T01:40:00+00:00",
+      "homeTeam": "Ailin Perez",
+      "awayTeam": "Norma Dumont",
       "homeScore": "W",
       "awayScore": "L"
     },
     {
       "league": "UFC Fight Night: Rosas Jr. vs. Barcelos",
       "status": "Finished",
-      "startTime": "2026-09-26T23:10:00+00:00",
-      "homeTeam": "Robert Bryczek",
-      "awayTeam": "Rodolfo Vieira",
+      "startTime": "2026-09-27T02:40:00+00:00",
+      "homeTeam": "Raoni Barcelos",
+      "awayTeam": "Raul Rosas Jr.",
       "homeScore": "L",
       "awayScore": "W"
     }
