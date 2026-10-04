@@ -1,4 +1,68 @@
 {
-  "updatedAt": "2026-10-03T23:41:41.923Z",
-  "games": []
+  "updatedAt": "2026-10-04T05:23:03.997Z",
+  "games": [
+    {
+      "league": "UFC 332: Silva vs. Wang",
+      "status": "Finished",
+      "startTime": "2026-10-03T12:00:00+00:00",
+      "homeTeam": "Ismail Naurdiev",
+      "awayTeam": "Marvin Vettori",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC 332: Silva vs. Wang",
+      "status": "Finished",
+      "startTime": "2026-10-03T16:00:00+00:00",
+      "homeTeam": "Khaos Williams",
+      "awayTeam": "Roberto Soldic",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC 332: Silva vs. Wang",
+      "status": "Finished",
+      "startTime": "2026-10-03T20:00:00+00:00",
+      "homeTeam": "Eric Nolan",
+      "awayTeam": "Court McGee",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC 332: Silva vs. Wang",
+      "status": "Finished",
+      "startTime": "2026-10-03T20:55:00+00:00",
+      "homeTeam": "Alexander Hernandez",
+      "awayTeam": "Rafael Dos Anjos",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC 332: Silva vs. Wang",
+      "status": "Finished",
+      "startTime": "2026-10-03T21:20:00+00:00",
+      "homeTeam": "Bruce Whitehead",
+      "awayTeam": "Jacobe Smith",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC 332: Silva vs. Wang",
+      "status": "Finished",
+      "startTime": "2026-10-03T21:30:00+00:00",
+      "homeTeam": "Mick Parkin",
+      "awayTeam": "Johnny Walker",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC 332: Silva vs. Wang",
+      "status": "Finished",
+      "startTime": "2026-10-03T22:00:00+00:00",
+      "homeTeam": "Lucas Armand",
+      "awayTeam": "Anthony Wint",
+      "homeScore": "L",
+      "awayScore": "W"
+    }
+  ]
 }
