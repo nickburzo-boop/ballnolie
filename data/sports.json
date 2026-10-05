@@ -1,68 +1,59 @@
 {
-  "updatedAt": "2026-10-04T22:55:56.433Z",
+  "updatedAt": "2026-10-05T01:47:21.147Z",
   "games": [
     {
       "league": "UFC 332: Silva vs. Wang",
       "status": "Finished",
-      "startTime": "2026-10-03T12:00:00+00:00",
-      "homeTeam": "Ismail Naurdiev",
-      "awayTeam": "Marvin Vettori",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "homeTeam": "Roman Kopylov",
+      "awayTeam": "Ateba Gautier",
       "homeScore": "W",
       "awayScore": "L"
     },
     {
       "league": "UFC 332: Silva vs. Wang",
       "status": "Finished",
-      "startTime": "2026-10-03T16:00:00+00:00",
-      "homeTeam": "Khaos Williams",
-      "awayTeam": "Roberto Soldic",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC 332: Silva vs. Wang",
-      "status": "Finished",
-      "startTime": "2026-10-03T20:00:00+00:00",
-      "homeTeam": "Eric Nolan",
-      "awayTeam": "Court McGee",
+      "startTime": "2026-10-04T01:15:00+00:00",
+      "homeTeam": "Esteban Ribovics",
+      "awayTeam": "King Green",
       "homeScore": "W",
       "awayScore": "L"
     },
     {
       "league": "UFC 332: Silva vs. Wang",
       "status": "Finished",
-      "startTime": "2026-10-03T20:55:00+00:00",
-      "homeTeam": "Alexander Hernandez",
-      "awayTeam": "Rafael Dos Anjos",
+      "startTime": "2026-10-04T01:45:00+00:00",
+      "homeTeam": "Payton Talbott",
+      "awayTeam": "Deiveson Figueiredo",
       "homeScore": "W",
       "awayScore": "L"
     },
     {
       "league": "UFC 332: Silva vs. Wang",
       "status": "Finished",
-      "startTime": "2026-10-03T21:20:00+00:00",
-      "homeTeam": "Bruce Whitehead",
-      "awayTeam": "Jacobe Smith",
+      "startTime": "2026-10-04T02:15:00+00:00",
+      "homeTeam": "Wang Cong",
+      "awayTeam": "Natalia Silva",
       "homeScore": "L",
       "awayScore": "W"
     },
     {
-      "league": "UFC 332: Silva vs. Wang",
+      "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-03T21:30:00+00:00",
-      "homeTeam": "Mick Parkin",
-      "awayTeam": "Johnny Walker",
-      "homeScore": "L",
-      "awayScore": "W"
+      "startTime": "2026-10-04T23:00:00.000Z",
+      "homeTeam": "Denver Nuggets",
+      "awayTeam": "Utah Jazz",
+      "homeScore": 97,
+      "awayScore": 109
     },
     {
-      "league": "UFC 332: Silva vs. Wang",
+      "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-03T22:00:00+00:00",
-      "homeTeam": "Lucas Armand",
-      "awayTeam": "Anthony Wint",
-      "homeScore": "L",
-      "awayScore": "W"
+      "startTime": "2026-10-04T23:00:00.000Z",
+      "homeTeam": "LA Clippers",
+      "awayTeam": "Golden State Warriors",
+      "homeScore": 104,
+      "awayScore": 101
     }
   ]
 }
