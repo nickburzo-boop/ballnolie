@@ -1,32 +1,32 @@
 {
-  "updatedAt": "2026-10-06T00:15:09.862Z",
+  "updatedAt": "2026-10-06T06:45:42.845Z",
   "games": [
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-10-05T23:00:00.000Z",
       "homeTeam": "Atlanta Hawks",
       "awayTeam": "Memphis Grizzlies",
-      "homeScore": 11,
-      "awayScore": 5
+      "homeScore": 123,
+      "awayScore": 132
     },
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-10-05T23:00:00.000Z",
       "homeTeam": "Detroit Pistons",
       "awayTeam": "Phoenix Suns",
-      "homeScore": 9,
-      "awayScore": 11
+      "homeScore": 109,
+      "awayScore": 107
     },
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-10-05T23:00:00.000Z",
       "homeTeam": "Philadelphia 76ers",
       "awayTeam": "New York Knicks",
-      "homeScore": 10,
-      "awayScore": 12
+      "homeScore": 120,
+      "awayScore": 97
     }
   ]
 }
