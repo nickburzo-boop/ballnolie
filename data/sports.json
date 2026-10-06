@@ -1,59 +1,32 @@
 {
-  "updatedAt": "2026-10-05T18:12:24.949Z",
+  "updatedAt": "2026-10-06T00:15:09.862Z",
   "games": [
     {
-      "league": "UFC 332: Silva vs. Wang",
-      "status": "Finished",
-      "startTime": "2026-10-04T00:00:00+00:00",
-      "homeTeam": "Roman Kopylov",
-      "awayTeam": "Ateba Gautier",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC 332: Silva vs. Wang",
-      "status": "Finished",
-      "startTime": "2026-10-04T01:15:00+00:00",
-      "homeTeam": "Esteban Ribovics",
-      "awayTeam": "King Green",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC 332: Silva vs. Wang",
-      "status": "Finished",
-      "startTime": "2026-10-04T01:45:00+00:00",
-      "homeTeam": "Payton Talbott",
-      "awayTeam": "Deiveson Figueiredo",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC 332: Silva vs. Wang",
-      "status": "Finished",
-      "startTime": "2026-10-04T02:15:00+00:00",
-      "homeTeam": "Wang Cong",
-      "awayTeam": "Natalia Silva",
-      "homeScore": "L",
-      "awayScore": "W"
+      "league": "NBA",
+      "status": "In Play",
+      "startTime": "2026-10-05T23:00:00.000Z",
+      "homeTeam": "Atlanta Hawks",
+      "awayTeam": "Memphis Grizzlies",
+      "homeScore": 11,
+      "awayScore": 5
     },
     {
       "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-04T23:00:00.000Z",
-      "homeTeam": "Denver Nuggets",
-      "awayTeam": "Utah Jazz",
-      "homeScore": 97,
-      "awayScore": 109
+      "status": "In Play",
+      "startTime": "2026-10-05T23:00:00.000Z",
+      "homeTeam": "Detroit Pistons",
+      "awayTeam": "Phoenix Suns",
+      "homeScore": 9,
+      "awayScore": 11
     },
     {
       "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-04T23:00:00.000Z",
-      "homeTeam": "LA Clippers",
-      "awayTeam": "Golden State Warriors",
-      "homeScore": 104,
-      "awayScore": 101
+      "status": "In Play",
+      "startTime": "2026-10-05T23:00:00.000Z",
+      "homeTeam": "Philadelphia 76ers",
+      "awayTeam": "New York Knicks",
+      "homeScore": 10,
+      "awayScore": 12
     }
   ]
 }
