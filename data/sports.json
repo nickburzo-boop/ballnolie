@@ -1,68 +1,32 @@
 {
-  "updatedAt": "2026-10-09T23:07:03.145Z",
+  "updatedAt": "2026-10-10T02:36:50.720Z",
   "games": [
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-08T00:00:00.000Z",
-      "homeTeam": "Memphis Grizzlies",
-      "awayTeam": "Orlando Magic",
-      "homeScore": 118,
-      "awayScore": 122
+      "startTime": "2026-10-09T00:00:00.000Z",
+      "homeTeam": "San Antonio Spurs",
+      "awayTeam": "Atlanta Hawks",
+      "homeScore": 116,
+      "awayScore": 123
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-08T00:00:00.000Z",
-      "homeTeam": "Oklahoma City Thunder",
-      "awayTeam": "Milwaukee Bucks",
-      "homeScore": 126,
-      "awayScore": 128
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-08T00:00:00.000Z",
-      "homeTeam": "Chicago Bulls",
-      "awayTeam": "Phoenix Suns",
-      "homeScore": 124,
-      "awayScore": 117
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-08T02:00:00.000Z",
-      "homeTeam": "Portland Trail Blazers",
-      "awayTeam": "Golden State Warriors",
-      "homeScore": 123,
-      "awayScore": 118
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-08T23:00:00.000Z",
-      "homeTeam": "Cleveland Cavaliers",
-      "awayTeam": "Boston Celtics",
-      "homeScore": 113,
-      "awayScore": 124
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-08T23:30:00.000Z",
-      "homeTeam": "Miami Heat",
-      "awayTeam": "New Orleans Pelicans",
-      "homeScore": 128,
-      "awayScore": 118
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-08T23:30:00.000Z",
-      "homeTeam": "Brooklyn Nets",
-      "awayTeam": "Philadelphia 76ers",
+      "startTime": "2026-10-09T02:30:00.000Z",
+      "homeTeam": "Los Angeles Lakers",
+      "awayTeam": "Sacramento Kings",
       "homeScore": 114,
-      "awayScore": 108
+      "awayScore": 110
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-10-09T12:00:00.000Z",
+      "homeTeam": "Dallas Mavericks",
+      "awayTeam": "Houston Rockets",
+      "homeScore": 117,
+      "awayScore": 135
     }
   ]
 }
