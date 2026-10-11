@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T02:05:31.838Z",
+  "updatedAt": "2026-10-11T09:12:31.388Z",
   "games": [
     {
       "league": "UFC Fight Night: Allen vs. Duncan",
@@ -84,21 +84,21 @@
     },
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-10-10T23:00:00.000Z",
       "homeTeam": "Indiana Pacers",
       "awayTeam": "Atlanta Hawks",
-      "homeScore": 113,
-      "awayScore": 116
+      "homeScore": 117,
+      "awayScore": 119
     },
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-10-10T23:00:00.000Z",
       "homeTeam": "Washington Wizards",
       "awayTeam": "Detroit Pistons",
-      "homeScore": 85,
-      "awayScore": 91
+      "homeScore": 114,
+      "awayScore": 108
     }
   ]
 }
