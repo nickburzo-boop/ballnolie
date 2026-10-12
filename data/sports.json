@@ -1,104 +1,95 @@
 {
-  "updatedAt": "2026-10-11T23:52:05.981Z",
+  "updatedAt": "2026-10-12T05:27:42.321Z",
   "games": [
     {
       "league": "UFC Fight Night: Allen vs. Duncan",
       "status": "Finished",
-      "startTime": "2026-10-10T13:00:00+00:00",
-      "homeTeam": "Daria Zhelezniakova",
-      "awayTeam": "Alice Pereira",
+      "startTime": "2026-10-11T00:40:00+00:00",
+      "homeTeam": "Kai Kamaka III",
+      "awayTeam": "Andre Fili",
       "homeScore": "L",
       "awayScore": "W"
     },
     {
       "league": "UFC Fight Night: Allen vs. Duncan",
       "status": "Finished",
-      "startTime": "2026-10-10T16:00:00+00:00",
-      "homeTeam": "Ketlen Souza",
-      "awayTeam": "Loopy GodÃ­nez",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC Fight Night: Allen vs. Duncan",
-      "status": "Finished",
-      "startTime": "2026-10-10T16:00:00+00:00",
-      "homeTeam": "Otari Tanzilovi",
-      "awayTeam": "Malcolm Wellmaker",
+      "startTime": "2026-10-11T01:40:00+00:00",
+      "homeTeam": "Jai Herbert",
+      "awayTeam": "Matheus Camilo",
       "homeScore": "W",
       "awayScore": "L"
     },
     {
       "league": "UFC Fight Night: Allen vs. Duncan",
       "status": "Finished",
-      "startTime": "2026-10-10T21:00:00+00:00",
-      "homeTeam": "Melissa Gatto",
-      "awayTeam": "Ernesta Kareckaite",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Allen vs. Duncan",
-      "status": "Finished",
-      "startTime": "2026-10-10T22:00:00+00:00",
-      "homeTeam": "RJ Harris",
-      "awayTeam": "Allen Frye Jr.",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC Fight Night: Allen vs. Duncan",
-      "status": "Finished",
-      "startTime": "2026-10-10T22:20:00+00:00",
-      "homeTeam": "Brendson Ribeiro",
-      "awayTeam": "Felipe Franco",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Allen vs. Duncan",
-      "status": "Finished",
-      "startTime": "2026-10-10T23:00:00+00:00",
-      "homeTeam": "Leon Shahbazyan",
-      "awayTeam": "Niko Price",
+      "startTime": "2026-10-11T02:10:00+00:00",
+      "homeTeam": "Christian Leroy Duncan",
+      "awayTeam": "Brendan Allen",
       "homeScore": "L",
       "awayScore": "W"
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-10T00:00:00.000Z",
-      "homeTeam": "Chicago Bulls",
-      "awayTeam": "Memphis Grizzlies",
-      "homeScore": 100,
-      "awayScore": 104
+      "startTime": "2026-10-11T00:00:00.000Z",
+      "homeTeam": "Miami Heat",
+      "awayTeam": "Minnesota Timberwolves",
+      "homeScore": 124,
+      "awayScore": 125
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-10T22:30:00.000Z",
-      "homeTeam": "Toronto Raptors",
-      "awayTeam": "LA Clippers",
-      "homeScore": 114,
+      "startTime": "2026-10-11T00:00:00.000Z",
+      "homeTeam": "Boston Celtics",
+      "awayTeam": "Philadelphia 76ers",
+      "homeScore": 144,
       "awayScore": 106
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-10T23:00:00.000Z",
-      "homeTeam": "Indiana Pacers",
-      "awayTeam": "Atlanta Hawks",
-      "homeScore": 117,
-      "awayScore": 119
+      "startTime": "2026-10-11T00:30:00.000Z",
+      "homeTeam": "Golden State Warriors",
+      "awayTeam": "Sacramento Kings",
+      "homeScore": 111,
+      "awayScore": 106
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-10T23:00:00.000Z",
-      "homeTeam": "Washington Wizards",
-      "awayTeam": "Detroit Pistons",
-      "homeScore": 114,
-      "awayScore": 108
+      "startTime": "2026-10-11T02:30:00.000Z",
+      "homeTeam": "Phoenix Suns",
+      "awayTeam": "San Antonio Spurs",
+      "homeScore": 102,
+      "awayScore": 98
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-10-11T10:00:00.000Z",
+      "homeTeam": "Houston Rockets",
+      "awayTeam": "Dallas Mavericks",
+      "homeScore": 115,
+      "awayScore": 132
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-10-11T22:30:00.000Z",
+      "homeTeam": "Cleveland Cavaliers",
+      "awayTeam": "Orlando Magic",
+      "homeScore": 119,
+      "awayScore": 105
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-10-11T23:00:00.000Z",
+      "homeTeam": "Charlotte Hornets",
+      "awayTeam": "Milwaukee Bucks",
+      "homeScore": 105,
+      "awayScore": 90
     }
   ]
 }
