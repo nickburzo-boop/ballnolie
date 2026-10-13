@@ -1,94 +1,40 @@
 {
-  "updatedAt": "2026-10-12T21:50:02.899Z",
+  "updatedAt": "2026-10-13T02:55:51.756Z",
   "games": [
     {
-      "league": "UFC Fight Night: Allen vs. Duncan",
+      "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-11T00:40:00+00:00",
-      "homeTeam": "Kai Kamaka III",
-      "awayTeam": "Andre Fili",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC Fight Night: Allen vs. Duncan",
-      "status": "Finished",
-      "startTime": "2026-10-11T01:40:00+00:00",
-      "homeTeam": "Jai Herbert",
-      "awayTeam": "Matheus Camilo",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Allen vs. Duncan",
-      "status": "Finished",
-      "startTime": "2026-10-11T02:10:00+00:00",
-      "homeTeam": "Christian Leroy Duncan",
-      "awayTeam": "Brendan Allen",
-      "homeScore": "L",
-      "awayScore": "W"
+      "startTime": "2026-10-12T01:00:00.000Z",
+      "homeTeam": "Denver Nuggets",
+      "awayTeam": "Chicago Bulls",
+      "homeScore": 133,
+      "awayScore": 128
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-11T00:00:00.000Z",
-      "homeTeam": "Miami Heat",
+      "startTime": "2026-10-12T23:00:00.000Z",
+      "homeTeam": "Atlanta Hawks",
+      "awayTeam": "Oklahoma City Thunder",
+      "homeScore": 113,
+      "awayScore": 110
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-10-12T23:00:00.000Z",
+      "homeTeam": "Washington Wizards",
+      "awayTeam": "Brooklyn Nets",
+      "homeScore": 122,
+      "awayScore": 131
+    },
+    {
+      "league": "NBA",
+      "status": "In Play",
+      "startTime": "2026-10-12T23:30:00.000Z",
+      "homeTeam": "New York Knicks",
       "awayTeam": "Minnesota Timberwolves",
-      "homeScore": 124,
-      "awayScore": 125
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-11T00:00:00.000Z",
-      "homeTeam": "Boston Celtics",
-      "awayTeam": "Philadelphia 76ers",
-      "homeScore": 144,
-      "awayScore": 106
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-11T00:30:00.000Z",
-      "homeTeam": "Golden State Warriors",
-      "awayTeam": "Sacramento Kings",
-      "homeScore": 111,
-      "awayScore": 106
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-11T02:30:00.000Z",
-      "homeTeam": "Phoenix Suns",
-      "awayTeam": "San Antonio Spurs",
-      "homeScore": 102,
-      "awayScore": 98
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-11T10:00:00.000Z",
-      "homeTeam": "Houston Rockets",
-      "awayTeam": "Dallas Mavericks",
-      "homeScore": 115,
-      "awayScore": 132
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-11T22:30:00.000Z",
-      "homeTeam": "Cleveland Cavaliers",
-      "awayTeam": "Orlando Magic",
-      "homeScore": 119,
-      "awayScore": 105
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-11T23:00:00.000Z",
-      "homeTeam": "Charlotte Hornets",
-      "awayTeam": "Milwaukee Bucks",
-      "homeScore": 105,
+      "homeScore": 80,
       "awayScore": 90
     }
   ]
