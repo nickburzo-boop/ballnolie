@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T02:55:51.756Z",
+  "updatedAt": "2026-10-13T10:24:14.363Z",
   "games": [
     {
       "league": "NBA",
@@ -7,8 +7,8 @@
       "startTime": "2026-10-12T01:00:00.000Z",
       "homeTeam": "Denver Nuggets",
       "awayTeam": "Chicago Bulls",
-      "homeScore": 133,
-      "awayScore": 128
+      "homeScore": "",
+      "awayScore": ""
     },
     {
       "league": "NBA",
@@ -16,8 +16,8 @@
       "startTime": "2026-10-12T23:00:00.000Z",
       "homeTeam": "Atlanta Hawks",
       "awayTeam": "Oklahoma City Thunder",
-      "homeScore": 113,
-      "awayScore": 110
+      "homeScore": "",
+      "awayScore": ""
     },
     {
       "league": "NBA",
@@ -25,17 +25,17 @@
       "startTime": "2026-10-12T23:00:00.000Z",
       "homeTeam": "Washington Wizards",
       "awayTeam": "Brooklyn Nets",
-      "homeScore": 122,
-      "awayScore": 131
+      "homeScore": "",
+      "awayScore": ""
     },
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-10-12T23:30:00.000Z",
       "homeTeam": "New York Knicks",
       "awayTeam": "Minnesota Timberwolves",
-      "homeScore": 80,
-      "awayScore": 90
+      "homeScore": "",
+      "awayScore": ""
     }
   ]
 }
