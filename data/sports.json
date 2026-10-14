@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T07:22:17.334Z",
+  "updatedAt": "2026-10-14T12:59:50.967Z",
   "games": [
     {
       "league": "NBA",
@@ -7,8 +7,8 @@
       "startTime": "2026-10-13T01:00:00.000Z",
       "homeTeam": "Utah Jazz",
       "awayTeam": "San Antonio Spurs",
-      "homeScore": "",
-      "awayScore": ""
+      "homeScore": 119,
+      "awayScore": 109
     },
     {
       "league": "NBA",
