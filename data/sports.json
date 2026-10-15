@@ -1,32 +1,50 @@
 {
-  "updatedAt": "2026-10-14T21:33:18.131Z",
+  "updatedAt": "2026-10-15T00:22:29.876Z",
   "games": [
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-13T01:00:00.000Z",
-      "homeTeam": "Utah Jazz",
-      "awayTeam": "San Antonio Spurs",
-      "homeScore": 119,
-      "awayScore": 109
+      "startTime": "2026-10-14T00:00:00.000Z",
+      "homeTeam": "Oklahoma City Thunder",
+      "awayTeam": "Indiana Pacers",
+      "homeScore": 114,
+      "awayScore": 112
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-13T23:00:00.000Z",
-      "homeTeam": "Orlando Magic",
-      "awayTeam": "Cleveland Cavaliers",
-      "homeScore": 132,
-      "awayScore": 116
+      "startTime": "2026-10-14T02:00:00.000Z",
+      "homeTeam": "Los Angeles Lakers",
+      "awayTeam": "Golden State Warriors",
+      "homeScore": 89,
+      "awayScore": 101
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-13T23:00:00.000Z",
-      "homeTeam": "Toronto Raptors",
-      "awayTeam": "New York Knicks",
-      "homeScore": 148,
-      "awayScore": 98
+      "startTime": "2026-10-14T02:00:00.000Z",
+      "homeTeam": "Sacramento Kings",
+      "awayTeam": "Portland Trail Blazers",
+      "homeScore": 98,
+      "awayScore": 110
+    },
+    {
+      "league": "NBA",
+      "status": "In Play",
+      "startTime": "2026-10-14T23:30:00.000Z",
+      "homeTeam": "Miami Heat",
+      "awayTeam": "Brooklyn Nets",
+      "homeScore": 15,
+      "awayScore": 10
+    },
+    {
+      "league": "NBA",
+      "status": "In Play",
+      "startTime": "2026-10-14T23:30:00.000Z",
+      "homeTeam": "Boston Celtics",
+      "awayTeam": "Charlotte Hornets",
+      "homeScore": 20,
+      "awayScore": 15
     }
   ]
 }
