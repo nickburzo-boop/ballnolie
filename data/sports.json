@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T00:22:29.876Z",
+  "updatedAt": "2026-10-15T05:02:32.195Z",
   "games": [
     {
       "league": "NBA",
@@ -30,21 +30,21 @@
     },
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-10-14T23:30:00.000Z",
       "homeTeam": "Miami Heat",
       "awayTeam": "Brooklyn Nets",
-      "homeScore": 15,
-      "awayScore": 10
+      "homeScore": 144,
+      "awayScore": 128
     },
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-10-14T23:30:00.000Z",
       "homeTeam": "Boston Celtics",
       "awayTeam": "Charlotte Hornets",
-      "homeScore": 20,
-      "awayScore": 15
+      "homeScore": 114,
+      "awayScore": 93
     }
   ]
 }
