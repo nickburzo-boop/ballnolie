@@ -1,50 +1,59 @@
 {
-  "updatedAt": "2026-10-15T22:36:44.681Z",
+  "updatedAt": "2026-10-16T01:05:41.204Z",
   "games": [
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-14T00:00:00.000Z",
-      "homeTeam": "Oklahoma City Thunder",
-      "awayTeam": "Indiana Pacers",
-      "homeScore": 114,
-      "awayScore": 112
+      "startTime": "2026-10-15T00:00:00.000Z",
+      "homeTeam": "San Antonio Spurs",
+      "awayTeam": "Phoenix Suns",
+      "homeScore": 123,
+      "awayScore": 103
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-14T02:00:00.000Z",
-      "homeTeam": "Los Angeles Lakers",
-      "awayTeam": "Golden State Warriors",
-      "homeScore": 89,
+      "startTime": "2026-10-15T00:00:00.000Z",
+      "homeTeam": "Dallas Mavericks",
+      "awayTeam": "New Orleans Pelicans",
+      "homeScore": 97,
       "awayScore": 101
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-14T02:00:00.000Z",
-      "homeTeam": "Sacramento Kings",
-      "awayTeam": "Portland Trail Blazers",
-      "homeScore": 98,
-      "awayScore": 110
+      "startTime": "2026-10-15T00:00:00.000Z",
+      "homeTeam": "Milwaukee Bucks",
+      "awayTeam": "Chicago Bulls",
+      "homeScore": 104,
+      "awayScore": 125
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-14T23:30:00.000Z",
-      "homeTeam": "Miami Heat",
-      "awayTeam": "Brooklyn Nets",
-      "homeScore": 144,
+      "startTime": "2026-10-15T00:00:00.000Z",
+      "homeTeam": "Minnesota Timberwolves",
+      "awayTeam": "Detroit Pistons",
+      "homeScore": 106,
       "awayScore": 128
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-14T23:30:00.000Z",
-      "homeTeam": "Boston Celtics",
-      "awayTeam": "Charlotte Hornets",
-      "homeScore": 114,
-      "awayScore": 93
+      "startTime": "2026-10-15T02:30:00.000Z",
+      "homeTeam": "LA Clippers",
+      "awayTeam": "Denver Nuggets",
+      "homeScore": 122,
+      "awayScore": 110
+    },
+    {
+      "league": "NBA",
+      "status": "In Play",
+      "startTime": "2026-10-15T23:30:00.000Z",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "Toronto Raptors",
+      "homeScore": 51,
+      "awayScore": 45
     }
   ]
 }
