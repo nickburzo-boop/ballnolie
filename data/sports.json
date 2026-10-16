@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T01:05:41.204Z",
+  "updatedAt": "2026-10-16T06:14:45.290Z",
   "games": [
     {
       "league": "NBA",
@@ -48,12 +48,12 @@
     },
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-10-15T23:30:00.000Z",
       "homeTeam": "New York Knicks",
       "awayTeam": "Toronto Raptors",
-      "homeScore": 51,
-      "awayScore": 45
+      "homeScore": 122,
+      "awayScore": 120
     }
   ]
 }
