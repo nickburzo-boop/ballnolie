@@ -1,59 +1,50 @@
 {
-  "updatedAt": "2026-10-16T22:42:16.506Z",
+  "updatedAt": "2026-10-17T01:11:43.739Z",
   "games": [
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-15T00:00:00.000Z",
-      "homeTeam": "San Antonio Spurs",
-      "awayTeam": "Phoenix Suns",
-      "homeScore": 123,
-      "awayScore": 103
+      "startTime": "2026-10-16T00:30:00.000Z",
+      "homeTeam": "Houston Rockets",
+      "awayTeam": "Oklahoma City Thunder",
+      "homeScore": 116,
+      "awayScore": 89
     },
     {
       "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-15T00:00:00.000Z",
-      "homeTeam": "Dallas Mavericks",
-      "awayTeam": "New Orleans Pelicans",
-      "homeScore": 97,
-      "awayScore": 101
+      "status": "In Play",
+      "startTime": "2026-10-16T23:00:00.000Z",
+      "homeTeam": "Orlando Magic",
+      "awayTeam": "Miami Heat",
+      "homeScore": 70,
+      "awayScore": 65
     },
     {
       "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-15T00:00:00.000Z",
-      "homeTeam": "Milwaukee Bucks",
-      "awayTeam": "Chicago Bulls",
-      "homeScore": 104,
-      "awayScore": 125
+      "status": "In Play",
+      "startTime": "2026-10-16T23:00:00.000Z",
+      "homeTeam": "Philadelphia 76ers",
+      "awayTeam": "Boston Celtics",
+      "homeScore": 60,
+      "awayScore": 58
     },
     {
       "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-15T00:00:00.000Z",
-      "homeTeam": "Minnesota Timberwolves",
-      "awayTeam": "Detroit Pistons",
-      "homeScore": 106,
-      "awayScore": 128
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-15T02:30:00.000Z",
-      "homeTeam": "LA Clippers",
-      "awayTeam": "Denver Nuggets",
-      "homeScore": 122,
-      "awayScore": 110
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-15T23:30:00.000Z",
-      "homeTeam": "New York Knicks",
+      "status": "In Play",
+      "startTime": "2026-10-16T23:00:00.000Z",
+      "homeTeam": "Detroit Pistons",
       "awayTeam": "Toronto Raptors",
-      "homeScore": 122,
-      "awayScore": 120
+      "homeScore": 59,
+      "awayScore": 52
+    },
+    {
+      "league": "NBA",
+      "status": "In Play",
+      "startTime": "2026-10-16T23:00:00.000Z",
+      "homeTeam": "Indiana Pacers",
+      "awayTeam": "Milwaukee Bucks",
+      "homeScore": 75,
+      "awayScore": 58
     }
   ]
 }
