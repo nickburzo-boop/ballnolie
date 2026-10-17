@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T01:11:43.739Z",
+  "updatedAt": "2026-10-17T06:00:38.491Z",
   "games": [
     {
       "league": "NBA",
@@ -12,39 +12,39 @@
     },
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-10-16T23:00:00.000Z",
       "homeTeam": "Orlando Magic",
       "awayTeam": "Miami Heat",
-      "homeScore": 70,
-      "awayScore": 65
+      "homeScore": 136,
+      "awayScore": 115
     },
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-10-16T23:00:00.000Z",
       "homeTeam": "Philadelphia 76ers",
       "awayTeam": "Boston Celtics",
-      "homeScore": 60,
-      "awayScore": 58
+      "homeScore": 120,
+      "awayScore": 125
     },
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-10-16T23:00:00.000Z",
       "homeTeam": "Detroit Pistons",
       "awayTeam": "Toronto Raptors",
-      "homeScore": 59,
-      "awayScore": 52
+      "homeScore": 129,
+      "awayScore": 125
     },
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-10-16T23:00:00.000Z",
       "homeTeam": "Indiana Pacers",
       "awayTeam": "Milwaukee Bucks",
-      "homeScore": 75,
-      "awayScore": 58
+      "homeScore": 127,
+      "awayScore": 128
     }
   ]
 }
