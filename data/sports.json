@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T00:11:46.406Z",
+  "updatedAt": "2026-10-18T04:59:50.018Z",
   "games": [
     {
       "league": "UFC Fight Night: Buckley vs. Malott",
@@ -30,11 +30,11 @@
     },
     {
       "league": "UFC Fight Night: Buckley vs. Malott",
-      "status": "Not Started",
+      "status": "Finished",
       "startTime": "2026-10-17T16:00:00+00:00",
       "homeTeam": "Timmy Cuamba",
       "awayTeam": "Louis Jourdain",
-      "homeScore": "L",
+      "homeScore": "W",
       "awayScore": "L"
     },
     {
