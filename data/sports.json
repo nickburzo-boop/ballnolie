@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T00:28:22.448Z",
+  "updatedAt": "2026-10-25T05:11:20.512Z",
   "games": [
     {
       "league": "UFC 333: Volkanovski vs. Evloev",
@@ -120,12 +120,12 @@
     },
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-10-24T22:00:00.000Z",
       "homeTeam": "Charlotte Hornets",
       "awayTeam": "Miami Heat",
-      "homeScore": 108,
-      "awayScore": 104
+      "homeScore": 115,
+      "awayScore": 110
     }
   ]
 }
