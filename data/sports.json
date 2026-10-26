@@ -1,131 +1,68 @@
 {
-  "updatedAt": "2026-10-25T23:28:53.021Z",
+  "updatedAt": "2026-10-26T01:36:08.871Z",
   "games": [
     {
-      "league": "UFC 333: Volkanovski vs. Evloev",
-      "status": "Finished",
-      "startTime": "2026-10-24T08:00:00+00:00",
-      "homeTeam": "Cam Rowston",
-      "awayTeam": "Abus Magomedov",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC 333: Volkanovski vs. Evloev",
-      "status": "Cancelled",
-      "startTime": "2026-10-24T10:00:00+00:00",
-      "homeTeam": "Aaron Pico",
-      "awayTeam": "Arnold Allen",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC 333: Volkanovski vs. Evloev",
-      "status": "Finished",
-      "startTime": "2026-10-24T14:00:00+00:00",
-      "homeTeam": "Nicolle Caliari",
-      "awayTeam": "Iasmin Lucindo",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC 333: Volkanovski vs. Evloev",
-      "status": "Finished",
-      "startTime": "2026-10-24T14:40:00+00:00",
-      "homeTeam": "Daniel Santos",
-      "awayTeam": "Bolaji Oki",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC 333: Volkanovski vs. Evloev",
-      "status": "Finished",
-      "startTime": "2026-10-24T14:40:00+00:00",
-      "homeTeam": "Noah Gugnon",
-      "awayTeam": "Kody Steele",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC 333: Volkanovski vs. Evloev",
-      "status": "Finished",
-      "startTime": "2026-10-24T15:15:00+00:00",
-      "homeTeam": "Jacob Malkoun",
-      "awayTeam": "Abubakar Vagaev",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC 333: Volkanovski vs. Evloev",
-      "status": "Finished",
-      "startTime": "2026-10-24T15:40:00+00:00",
-      "homeTeam": "Asaf Chopurov",
-      "awayTeam": "Colby Thicknesse",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-24T00:00:00.000Z",
-      "homeTeam": "Miami Heat",
-      "awayTeam": "Detroit Pistons",
-      "homeScore": 111,
-      "awayScore": 128
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-24T01:30:00.000Z",
-      "homeTeam": "San Antonio Spurs",
+      "startTime": "2026-10-25T00:30:00.000Z",
+      "homeTeam": "Atlanta Hawks",
       "awayTeam": "Houston Rockets",
-      "homeScore": 110,
-      "awayScore": 114
+      "homeScore": 114,
+      "awayScore": 121
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-24T01:30:00.000Z",
-      "homeTeam": "Utah Jazz",
+      "startTime": "2026-10-25T00:00:00.000Z",
+      "homeTeam": "Chicago Bulls",
+      "awayTeam": "Washington Wizards",
+      "homeScore": 120,
+      "awayScore": 124
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-10-25T00:00:00.000Z",
+      "homeTeam": "Dallas Mavericks",
+      "awayTeam": "San Antonio Spurs",
+      "homeScore": 106,
+      "awayScore": 122
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-10-25T01:00:00.000Z",
+      "homeTeam": "Denver Nuggets",
       "awayTeam": "New Orleans Pelicans",
-      "homeScore": 120,
-      "awayScore": 119
+      "homeScore": 141,
+      "awayScore": 135
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-24T02:00:00.000Z",
-      "homeTeam": "Golden State Warriors",
-      "awayTeam": "Memphis Grizzlies",
-      "homeScore": 108,
-      "awayScore": 111
+      "startTime": "2026-10-25T02:00:00.000Z",
+      "homeTeam": "Phoenix Suns",
+      "awayTeam": "Golden State Warriors",
+      "homeScore": 131,
+      "awayScore": 122
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-24T02:00:00.000Z",
-      "homeTeam": "Los Angeles Lakers",
-      "awayTeam": "LA Clippers",
-      "homeScore": 125,
-      "awayScore": 117
+      "startTime": "2026-10-25T21:00:00.000Z",
+      "homeTeam": "Utah Jazz",
+      "awayTeam": "Los Angeles Lakers",
+      "homeScore": 123,
+      "awayScore": 132
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-24T02:00:00.000Z",
-      "homeTeam": "Sacramento Kings",
-      "awayTeam": "Portland Trail Blazers",
-      "homeScore": 120,
-      "awayScore": 128
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-24T22:00:00.000Z",
-      "homeTeam": "Charlotte Hornets",
-      "awayTeam": "Miami Heat",
-      "homeScore": 115,
-      "awayScore": 110
+      "startTime": "2026-10-25T22:00:00.000Z",
+      "homeTeam": "Brooklyn Nets",
+      "awayTeam": "Indiana Pacers",
+      "homeScore": 109,
+      "awayScore": 136
     }
   ]
 }
