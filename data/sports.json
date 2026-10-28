@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T00:21:39.591Z",
+  "updatedAt": "2026-10-28T06:08:16.091Z",
   "games": [
     {
       "league": "NBA",
@@ -48,12 +48,12 @@
     },
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-10-27T23:30:00.000Z",
       "homeTeam": "Boston Celtics",
       "awayTeam": "Brooklyn Nets",
-      "homeScore": 37,
-      "awayScore": 45
+      "homeScore": 125,
+      "awayScore": 124
     }
   ]
 }
