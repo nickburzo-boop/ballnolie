@@ -1,68 +1,131 @@
 {
-  "updatedAt": "2026-10-31T23:35:37.306Z",
+  "updatedAt": "2026-11-01T05:31:32.267Z",
   "games": [
     {
+      "league": "UFC Fight Night: Moicano vs. Nolan",
+      "status": "Finished",
+      "startTime": "2026-10-31T13:00:00+00:00",
+      "homeTeam": "Joe Kropschot",
+      "awayTeam": "Nick Klein",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Moicano vs. Nolan",
+      "status": "Finished",
+      "startTime": "2026-10-31T13:00:00+00:00",
+      "homeTeam": "JeongYeong Lee",
+      "awayTeam": "Julian Erosa",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Moicano vs. Nolan",
+      "status": "Cancelled",
+      "startTime": "2026-10-31T13:00:00+00:00",
+      "homeTeam": "Gaston BolaÃ±os",
+      "awayTeam": "Francis Marshall",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Moicano vs. Nolan",
+      "status": "Cancelled",
+      "startTime": "2026-10-31T16:00:00+00:00",
+      "homeTeam": "Carlos Leal",
+      "awayTeam": "Randy Brown",
+      "homeScore": "L",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Moicano vs. Nolan",
+      "status": "Finished",
+      "startTime": "2026-10-31T16:00:00+00:00",
+      "homeTeam": "Cody Durden",
+      "awayTeam": "Ode' Osbourne",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: Moicano vs. Nolan",
+      "status": "Finished",
+      "startTime": "2026-10-31T21:00:00+00:00",
+      "homeTeam": "Tainara Lisboa",
+      "awayTeam": "Lucia SzabovÃ¡",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: Moicano vs. Nolan",
+      "status": "Finished",
+      "startTime": "2026-10-31T21:30:00+00:00",
+      "homeTeam": "Piera Rodriguez",
+      "awayTeam": "Talita Alencar",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-30T00:00:00.000Z",
-      "homeTeam": "Atlanta Hawks",
-      "awayTeam": "Cleveland Cavaliers",
-      "homeScore": 114,
+      "startTime": "2026-10-31T00:00:00.000Z",
+      "homeTeam": "Miami Heat",
+      "awayTeam": "Indiana Pacers",
+      "homeScore": 145,
+      "awayScore": 125
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-10-31T00:00:00.000Z",
+      "homeTeam": "Dallas Mavericks",
+      "awayTeam": "Houston Rockets",
+      "homeScore": 116,
       "awayScore": 111
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-30T00:00:00.000Z",
-      "homeTeam": "New Orleans Pelicans",
-      "awayTeam": "Sacramento Kings",
-      "homeScore": 132,
-      "awayScore": 120
+      "startTime": "2026-10-31T00:00:00.000Z",
+      "homeTeam": "Minnesota Timberwolves",
+      "awayTeam": "LA Clippers",
+      "homeScore": 127,
+      "awayScore": 101
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-30T02:00:00.000Z",
-      "homeTeam": "Portland Trail Blazers",
-      "awayTeam": "Memphis Grizzlies",
-      "homeScore": 103,
-      "awayScore": 124
+      "startTime": "2026-10-31T02:00:00.000Z",
+      "homeTeam": "Golden State Warriors",
+      "awayTeam": "Los Angeles Lakers",
+      "homeScore": 112,
+      "awayScore": 95
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-30T23:00:00.000Z",
-      "homeTeam": "Washington Wizards",
-      "awayTeam": "Charlotte Hornets",
-      "homeScore": 95,
-      "awayScore": 79
+      "startTime": "2026-10-31T02:00:00.000Z",
+      "homeTeam": "Phoenix Suns",
+      "awayTeam": "Denver Nuggets",
+      "homeScore": 120,
+      "awayScore": 127
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-10-30T23:30:00.000Z",
-      "homeTeam": "Boston Celtics",
-      "awayTeam": "Chicago Bulls",
-      "homeScore": 125,
-      "awayScore": 111
+      "startTime": "2026-10-31T19:00:00.000Z",
+      "homeTeam": "Utah Jazz",
+      "awayTeam": "Portland Trail Blazers",
+      "homeScore": 90,
+      "awayScore": 112
     },
     {
       "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-30T23:30:00.000Z",
-      "homeTeam": "Brooklyn Nets",
-      "awayTeam": "Detroit Pistons",
-      "homeScore": 94,
-      "awayScore": 110
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-10-30T23:30:00.000Z",
-      "homeTeam": "Philadelphia 76ers",
-      "awayTeam": "New York Knicks",
-      "homeScore": 98,
-      "awayScore": 93
+      "status": "In Play",
+      "startTime": "2026-10-31T22:00:00.000Z",
+      "homeTeam": "Charlotte Hornets",
+      "awayTeam": "Philadelphia 76ers",
+      "homeScore": 89,
+      "awayScore": 86
     }
   ]
 }
