@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T05:31:32.267Z",
+  "updatedAt": "2026-11-01T13:00:17.971Z",
   "games": [
     {
       "league": "UFC Fight Night: Moicano vs. Nolan",
@@ -120,12 +120,12 @@
     },
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-10-31T22:00:00.000Z",
       "homeTeam": "Charlotte Hornets",
       "awayTeam": "Philadelphia 76ers",
-      "homeScore": 89,
-      "awayScore": 86
+      "homeScore": 104,
+      "awayScore": 109
     }
   ]
 }
