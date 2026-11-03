@@ -1,95 +1,23 @@
 {
-  "updatedAt": "2026-11-02T19:41:18.036Z",
+  "updatedAt": "2026-11-03T02:06:17.407Z",
   "games": [
     {
-      "league": "UFC Fight Night: Moicano vs. Nolan",
+      "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-01T00:15:00+00:00",
-      "homeTeam": "Farman Hasanov",
-      "awayTeam": "Jean-Paul Lebosnoyani",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC Fight Night: Moicano vs. Nolan",
-      "status": "Finished",
-      "startTime": "2026-11-01T00:45:00+00:00",
-      "homeTeam": "Luana Santos",
-      "awayTeam": "Yana Santos",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Moicano vs. Nolan",
-      "status": "Finished",
-      "startTime": "2026-11-01T01:50:00+00:00",
-      "homeTeam": "Jacobe Smith",
-      "awayTeam": "Randy Brown",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC Fight Night: Moicano vs. Nolan",
-      "status": "Finished",
-      "startTime": "2026-11-01T02:15:00+00:00",
-      "homeTeam": "Tom Nolan",
-      "awayTeam": "Renato Moicano",
-      "homeScore": "W",
-      "awayScore": "L"
+      "startTime": "2026-11-02T01:30:00.000Z",
+      "homeTeam": "Golden State Warriors",
+      "awayTeam": "LA Clippers",
+      "homeScore": 124,
+      "awayScore": 112
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-01T00:00:00.000Z",
-      "homeTeam": "Memphis Grizzlies",
-      "awayTeam": "Sacramento Kings",
-      "homeScore": 136,
-      "awayScore": 105
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-11-01T00:00:00.000Z",
-      "homeTeam": "Milwaukee Bucks",
-      "awayTeam": "Cleveland Cavaliers",
-      "homeScore": 111,
-      "awayScore": 136
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-11-01T00:00:00.000Z",
-      "homeTeam": "San Antonio Spurs",
-      "awayTeam": "Minnesota Timberwolves",
-      "homeScore": 121,
-      "awayScore": 111
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-11-01T00:30:00.000Z",
-      "homeTeam": "Houston Rockets",
-      "awayTeam": "Oklahoma City Thunder",
-      "homeScore": 119,
-      "awayScore": 98
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-11-01T20:30:00.000Z",
-      "homeTeam": "Orlando Magic",
-      "awayTeam": "Boston Celtics",
-      "homeScore": 97,
-      "awayScore": 108
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-11-01T22:00:00.000Z",
-      "homeTeam": "Indiana Pacers",
-      "awayTeam": "Brooklyn Nets",
-      "homeScore": 90,
-      "awayScore": 98
+      "startTime": "2026-11-02T02:00:00.000Z",
+      "homeTeam": "Los Angeles Lakers",
+      "awayTeam": "Toronto Raptors",
+      "homeScore": 131,
+      "awayScore": 125
     }
   ]
 }
