@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T01:13:06.106Z",
+  "updatedAt": "2026-11-15T08:19:12.887Z",
   "games": [
     {
       "league": "UFC 334: Gane vs. Hokit",
@@ -39,12 +39,12 @@
     },
     {
       "league": "UFC 334: Gane vs. Hokit",
-      "status": "Not Started",
+      "status": "Finished",
       "startTime": "2026-11-14T16:00:00+00:00",
       "homeTeam": "Charles Radtke",
       "awayTeam": "Stephen Thompson",
       "homeScore": "L",
-      "awayScore": "L"
+      "awayScore": "W"
     },
     {
       "league": "UFC 334: Gane vs. Hokit",
@@ -57,12 +57,12 @@
     },
     {
       "league": "UFC 334: Gane vs. Hokit",
-      "status": "Not Started",
+      "status": "Finished",
       "startTime": "2026-11-14T18:00:00+00:00",
       "homeTeam": "Josh Hokit",
       "awayTeam": "Ciryl Gane",
       "homeScore": "L",
-      "awayScore": "L"
+      "awayScore": "W"
     },
     {
       "league": "NBA",
