@@ -1,131 +1,131 @@
 {
-  "updatedAt": "2026-11-15T20:55:56.706Z",
+  "updatedAt": "2026-11-16T00:54:16.116Z",
   "games": [
     {
       "league": "UFC 334: Gane vs. Hokit",
       "status": "Finished",
-      "startTime": "2026-11-14T14:00:00+00:00",
-      "homeTeam": "Bia Mesquita",
-      "awayTeam": "Macy Chiasson",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC 334: Gane vs. Hokit",
-      "status": "Cancelled",
-      "startTime": "2026-11-14T14:00:00+00:00",
-      "homeTeam": "Juan Diaz",
-      "awayTeam": "Adrian YaÃ±ez",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC 334: Gane vs. Hokit",
-      "status": "Cancelled",
-      "startTime": "2026-11-14T14:00:00+00:00",
-      "homeTeam": "Jefferson Nascimento",
-      "awayTeam": "Nazim Sadykhov",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC 334: Gane vs. Hokit",
-      "status": "Finished",
-      "startTime": "2026-11-14T14:00:00+00:00",
-      "homeTeam": "Juan Diaz",
-      "awayTeam": "Alatengheili",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC 334: Gane vs. Hokit",
-      "status": "Finished",
-      "startTime": "2026-11-14T16:00:00+00:00",
-      "homeTeam": "Charles Radtke",
-      "awayTeam": "Stephen Thompson",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC 334: Gane vs. Hokit",
-      "status": "Cancelled",
-      "startTime": "2026-11-14T16:00:00+00:00",
-      "homeTeam": "Baisangur Susurkaev",
+      "startTime": "2026-11-15T00:00:00+00:00",
+      "homeTeam": "Cesar Almeida",
       "awayTeam": "Donte Johnson",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC 334: Gane vs. Hokit",
+      "status": "Finished",
+      "startTime": "2026-11-15T00:35:00+00:00",
+      "homeTeam": "Terrance McKinney",
+      "awayTeam": "Jim Miller",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC 334: Gane vs. Hokit",
+      "status": "Finished",
+      "startTime": "2026-11-15T01:05:00+00:00",
+      "homeTeam": "Chris Duncan",
+      "awayTeam": "Drew Dober",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC 334: Gane vs. Hokit",
+      "status": "Finished",
+      "startTime": "2026-11-15T02:10:00+00:00",
+      "homeTeam": "Luis Gurule",
+      "awayTeam": "Bilal Hasan",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC 334: Gane vs. Hokit",
+      "status": "Finished",
+      "startTime": "2026-11-15T02:50:00+00:00",
+      "homeTeam": "Kevin Holland",
+      "awayTeam": "UroÅ¡ Medic",
       "homeScore": "L",
       "awayScore": "L"
     },
     {
       "league": "UFC 334: Gane vs. Hokit",
       "status": "Finished",
-      "startTime": "2026-11-14T18:00:00+00:00",
-      "homeTeam": "Josh Hokit",
-      "awayTeam": "Ciryl Gane",
+      "startTime": "2026-11-15T03:50:00+00:00",
+      "homeTeam": "Yousri Belgaroui",
+      "awayTeam": "Caio Borralho",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC 334: Gane vs. Hokit",
+      "status": "Finished",
+      "startTime": "2026-11-15T04:20:00+00:00",
+      "homeTeam": "Amanda Nunes",
+      "awayTeam": "Kayla Harrison",
       "homeScore": "L",
       "awayScore": "W"
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-14T00:00:00.000Z",
-      "homeTeam": "Indiana Pacers",
-      "awayTeam": "New York Knicks",
-      "homeScore": 106,
-      "awayScore": 104
+      "startTime": "2026-11-15T00:00:00.000Z",
+      "homeTeam": "New Orleans Pelicans",
+      "awayTeam": "Denver Nuggets",
+      "homeScore": 108,
+      "awayScore": 116
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-14T00:00:00.000Z",
-      "homeTeam": "Orlando Magic",
-      "awayTeam": "Milwaukee Bucks",
-      "homeScore": 107,
-      "awayScore": 99
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-11-14T01:00:00.000Z",
-      "homeTeam": "Miami Heat",
-      "awayTeam": "Cleveland Cavaliers",
-      "homeScore": 133,
-      "awayScore": 121
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-11-14T01:00:00.000Z",
-      "homeTeam": "Chicago Bulls",
-      "awayTeam": "Atlanta Hawks",
-      "homeScore": 125,
+      "startTime": "2026-11-15T00:30:00.000Z",
+      "homeTeam": "Cleveland Cavaliers",
+      "awayTeam": "Dallas Mavericks",
+      "homeScore": 127,
       "awayScore": 117
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-14T01:00:00.000Z",
-      "homeTeam": "New Orleans Pelicans",
-      "awayTeam": "Memphis Grizzlies",
-      "homeScore": 111,
-      "awayScore": 142
+      "startTime": "2026-11-15T01:00:00.000Z",
+      "homeTeam": "Miami Heat",
+      "awayTeam": "Detroit Pistons",
+      "homeScore": 137,
+      "awayScore": 117
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-14T01:30:00.000Z",
-      "homeTeam": "Houston Rockets",
-      "awayTeam": "Utah Jazz",
-      "homeScore": 125,
-      "awayScore": 118
+      "startTime": "2026-11-15T01:00:00.000Z",
+      "homeTeam": "Memphis Grizzlies",
+      "awayTeam": "Brooklyn Nets",
+      "homeScore": 129,
+      "awayScore": 110
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-14T02:30:00.000Z",
-      "homeTeam": "San Antonio Spurs",
-      "awayTeam": "Golden State Warriors",
+      "startTime": "2026-11-15T01:00:00.000Z",
+      "homeTeam": "Minnesota Timberwolves",
+      "awayTeam": "Chicago Bulls",
+      "homeScore": 106,
+      "awayScore": 117
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-11-15T18:00:00.000Z",
+      "homeTeam": "Philadelphia 76ers",
+      "awayTeam": "Indiana Pacers",
+      "homeScore": 131,
+      "awayScore": 124
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-11-15T21:00:00.000Z",
+      "homeTeam": "Phoenix Suns",
+      "awayTeam": "Los Angeles Lakers",
       "homeScore": 123,
-      "awayScore": 85
+      "awayScore": 131
     }
   ]
 }
