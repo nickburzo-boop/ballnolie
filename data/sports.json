@@ -1,131 +1,32 @@
 {
-  "updatedAt": "2026-11-16T18:13:52.015Z",
+  "updatedAt": "2026-11-17T01:58:59.041Z",
   "games": [
     {
-      "league": "UFC 334: Gane vs. Hokit",
+      "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-15T00:00:00+00:00",
-      "homeTeam": "Cesar Almeida",
-      "awayTeam": "Donte Johnson",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC 334: Gane vs. Hokit",
-      "status": "Finished",
-      "startTime": "2026-11-15T00:35:00+00:00",
-      "homeTeam": "Terrance McKinney",
-      "awayTeam": "Jim Miller",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC 334: Gane vs. Hokit",
-      "status": "Finished",
-      "startTime": "2026-11-15T01:05:00+00:00",
-      "homeTeam": "Chris Duncan",
-      "awayTeam": "Drew Dober",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC 334: Gane vs. Hokit",
-      "status": "Finished",
-      "startTime": "2026-11-15T02:10:00+00:00",
-      "homeTeam": "Luis Gurule",
-      "awayTeam": "Bilal Hasan",
-      "homeScore": "W",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC 334: Gane vs. Hokit",
-      "status": "Finished",
-      "startTime": "2026-11-15T02:50:00+00:00",
-      "homeTeam": "Kevin Holland",
-      "awayTeam": "UroÅ¡ Medic",
-      "homeScore": "L",
-      "awayScore": "L"
-    },
-    {
-      "league": "UFC 334: Gane vs. Hokit",
-      "status": "Finished",
-      "startTime": "2026-11-15T03:50:00+00:00",
-      "homeTeam": "Yousri Belgaroui",
-      "awayTeam": "Caio Borralho",
-      "homeScore": "L",
-      "awayScore": "W"
-    },
-    {
-      "league": "UFC 334: Gane vs. Hokit",
-      "status": "Finished",
-      "startTime": "2026-11-15T04:20:00+00:00",
-      "homeTeam": "Amanda Nunes",
-      "awayTeam": "Kayla Harrison",
-      "homeScore": "L",
-      "awayScore": "W"
+      "startTime": "2026-11-16T00:00:00.000Z",
+      "homeTeam": "Washington Wizards",
+      "awayTeam": "Houston Rockets",
+      "homeScore": 119,
+      "awayScore": 147
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-15T00:00:00.000Z",
-      "homeTeam": "New Orleans Pelicans",
-      "awayTeam": "Denver Nuggets",
-      "homeScore": 108,
-      "awayScore": 116
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-11-15T00:30:00.000Z",
-      "homeTeam": "Cleveland Cavaliers",
-      "awayTeam": "Dallas Mavericks",
-      "homeScore": 127,
-      "awayScore": 117
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-11-15T01:00:00.000Z",
-      "homeTeam": "Miami Heat",
-      "awayTeam": "Detroit Pistons",
-      "homeScore": 137,
-      "awayScore": 117
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-11-15T01:00:00.000Z",
-      "homeTeam": "Memphis Grizzlies",
-      "awayTeam": "Brooklyn Nets",
-      "homeScore": 129,
-      "awayScore": 110
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-11-15T01:00:00.000Z",
-      "homeTeam": "Minnesota Timberwolves",
-      "awayTeam": "Chicago Bulls",
+      "startTime": "2026-11-16T01:00:00.000Z",
+      "homeTeam": "Milwaukee Bucks",
+      "awayTeam": "Atlanta Hawks",
       "homeScore": 106,
-      "awayScore": 117
+      "awayScore": 113
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-15T18:00:00.000Z",
-      "homeTeam": "Philadelphia 76ers",
-      "awayTeam": "Indiana Pacers",
-      "homeScore": 131,
-      "awayScore": 124
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-11-15T21:00:00.000Z",
-      "homeTeam": "Phoenix Suns",
-      "awayTeam": "Los Angeles Lakers",
-      "homeScore": 123,
-      "awayScore": 131
+      "startTime": "2026-11-16T02:00:00.000Z",
+      "homeTeam": "Sacramento Kings",
+      "awayTeam": "Oklahoma City Thunder",
+      "homeScore": 103,
+      "awayScore": 125
     }
   ]
 }
