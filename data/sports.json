@@ -1,50 +1,68 @@
 {
-  "updatedAt": "2026-11-19T18:32:25.462Z",
+  "updatedAt": "2026-11-20T01:07:28.865Z",
   "games": [
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-18T00:30:00.000Z",
-      "homeTeam": "Toronto Raptors",
-      "awayTeam": "New York Knicks",
-      "homeScore": 102,
-      "awayScore": 111
+      "startTime": "2026-11-19T00:00:00.000Z",
+      "homeTeam": "Cleveland Cavaliers",
+      "awayTeam": "Memphis Grizzlies",
+      "homeScore": 121,
+      "awayScore": 124
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-18T01:00:00.000Z",
-      "homeTeam": "Minnesota Timberwolves",
-      "awayTeam": "Portland Trail Blazers",
-      "homeScore": 106,
-      "awayScore": 105
+      "startTime": "2026-11-19T00:00:00.000Z",
+      "homeTeam": "Indiana Pacers",
+      "awayTeam": "Houston Rockets",
+      "homeScore": 104,
+      "awayScore": 119
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-18T01:00:00.000Z",
-      "homeTeam": "San Antonio Spurs",
-      "awayTeam": "Detroit Pistons",
-      "homeScore": 93,
-      "awayScore": 105
+      "startTime": "2026-11-19T00:00:00.000Z",
+      "homeTeam": "Miami Heat",
+      "awayTeam": "Milwaukee Bucks",
+      "homeScore": 137,
+      "awayScore": 130
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-18T04:00:00.000Z",
-      "homeTeam": "Los Angeles Lakers",
-      "awayTeam": "Charlotte Hornets",
-      "homeScore": 118,
-      "awayScore": 114
+      "startTime": "2026-11-19T00:00:00.000Z",
+      "homeTeam": "Orlando Magic",
+      "awayTeam": "Philadelphia 76ers",
+      "homeScore": 116,
+      "awayScore": 121
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-18T03:30:00.000Z",
-      "homeTeam": "LA Clippers",
-      "awayTeam": "Utah Jazz",
+      "startTime": "2026-11-19T00:30:00.000Z",
+      "homeTeam": "Brooklyn Nets",
+      "awayTeam": "Chicago Bulls",
       "homeScore": 107,
-      "awayScore": 132
+      "awayScore": 137
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-11-19T00:30:00.000Z",
+      "homeTeam": "Toronto Raptors",
+      "awayTeam": "Washington Wizards",
+      "homeScore": 99,
+      "awayScore": 103
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-11-19T01:00:00.000Z",
+      "homeTeam": "New Orleans Pelicans",
+      "awayTeam": "Detroit Pistons",
+      "homeScore": 109,
+      "awayScore": 122
     }
   ]
 }
