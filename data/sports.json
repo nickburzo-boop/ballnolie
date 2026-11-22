@@ -1,41 +1,131 @@
 {
-  "updatedAt": "2026-11-21T21:00:29.484Z",
+  "updatedAt": "2026-11-22T01:29:47.827Z",
   "games": [
+    {
+      "league": "UFC Fight Night: ProchÃ¡zka vs. Stirling",
+      "status": "Finished",
+      "startTime": "2026-11-21T07:00:00+00:00",
+      "homeTeam": "Santiago Luna",
+      "awayTeam": "Aleksandre Topuria",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: ProchÃ¡zka vs. Stirling",
+      "status": "Finished",
+      "startTime": "2026-11-21T10:00:00+00:00",
+      "homeTeam": "Brian Ortega",
+      "awayTeam": "Dan Hooker",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: ProchÃ¡zka vs. Stirling",
+      "status": "Finished",
+      "startTime": "2026-11-21T15:00:00+00:00",
+      "homeTeam": "John Mitchell",
+      "awayTeam": "Shoaib Yousaf",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: ProchÃ¡zka vs. Stirling",
+      "status": "Finished",
+      "startTime": "2026-11-21T15:25:00+00:00",
+      "homeTeam": "Alik Lorenz",
+      "awayTeam": "Diyar Nurgozhay",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
+    {
+      "league": "UFC Fight Night: ProchÃ¡zka vs. Stirling",
+      "status": "Finished",
+      "startTime": "2026-11-21T15:30:00+00:00",
+      "homeTeam": "Dom Mar Fan",
+      "awayTeam": "Nikolas Motta",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: ProchÃ¡zka vs. Stirling",
+      "status": "Finished",
+      "startTime": "2026-11-21T16:00:00+00:00",
+      "homeTeam": "Tahir Abdullayev",
+      "awayTeam": "Jake Matthews",
+      "homeScore": "W",
+      "awayScore": "L"
+    },
+    {
+      "league": "UFC Fight Night: ProchÃ¡zka vs. Stirling",
+      "status": "Finished",
+      "startTime": "2026-11-21T16:50:00+00:00",
+      "homeTeam": "Alessandro Costa",
+      "awayTeam": "Amir Albazi",
+      "homeScore": "L",
+      "awayScore": "W"
+    },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-20T01:00:00.000Z",
-      "homeTeam": "Memphis Grizzlies",
-      "awayTeam": "Golden State Warriors",
-      "homeScore": 126,
+      "startTime": "2026-11-21T00:00:00.000Z",
+      "homeTeam": "Atlanta Hawks",
+      "awayTeam": "Charlotte Hornets",
+      "homeScore": 111,
+      "awayScore": 97
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-11-21T00:30:00.000Z",
+      "homeTeam": "Brooklyn Nets",
+      "awayTeam": "Orlando Magic",
+      "homeScore": 111,
+      "awayScore": 113
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-11-21T00:30:00.000Z",
+      "homeTeam": "Cleveland Cavaliers",
+      "awayTeam": "Indiana Pacers",
+      "homeScore": 128,
+      "awayScore": 119
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-11-21T00:30:00.000Z",
+      "homeTeam": "Detroit Pistons",
+      "awayTeam": "Toronto Raptors",
+      "homeScore": 102,
+      "awayScore": 105
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-11-21T01:00:00.000Z",
+      "homeTeam": "Chicago Bulls",
+      "awayTeam": "Washington Wizards",
+      "homeScore": 94,
       "awayScore": 98
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-20T01:00:00.000Z",
-      "homeTeam": "Milwaukee Bucks",
-      "awayTeam": "Portland Trail Blazers",
-      "homeScore": 114,
-      "awayScore": 124
+      "startTime": "2026-11-21T01:00:00.000Z",
+      "homeTeam": "Oklahoma City Thunder",
+      "awayTeam": "New Orleans Pelicans",
+      "homeScore": 126,
+      "awayScore": 120
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-20T01:00:00.000Z",
-      "homeTeam": "Minnesota Timberwolves",
-      "awayTeam": "New York Knicks",
-      "homeScore": 99,
-      "awayScore": 102
-    },
-    {
-      "league": "NBA",
-      "status": "Finished",
-      "startTime": "2026-11-20T01:00:00.000Z",
-      "homeTeam": "San Antonio Spurs",
-      "awayTeam": "LA Clippers",
-      "homeScore": 124,
-      "awayScore": 112
+      "startTime": "2026-11-21T02:30:00.000Z",
+      "homeTeam": "Utah Jazz",
+      "awayTeam": "Phoenix Suns",
+      "homeScore": 101,
+      "awayScore": 111
     }
   ]
 }
