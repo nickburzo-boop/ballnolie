@@ -1,50 +1,68 @@
 {
-  "updatedAt": "2026-11-24T22:41:32.906Z",
+  "updatedAt": "2026-11-25T05:19:00.599Z",
   "games": [
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-23T00:00:00.000Z",
-      "homeTeam": "Washington Wizards",
-      "awayTeam": "Orlando Magic",
-      "homeScore": 116,
-      "awayScore": 96
+      "startTime": "2026-11-24T00:00:00.000Z",
+      "homeTeam": "Charlotte Hornets",
+      "awayTeam": "Memphis Grizzlies",
+      "homeScore": 111,
+      "awayScore": 117
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-23T00:00:00.000Z",
-      "homeTeam": "Chicago Bulls",
-      "awayTeam": "Denver Nuggets",
-      "homeScore": 145,
-      "awayScore": 151
+      "startTime": "2026-11-24T00:00:00.000Z",
+      "homeTeam": "Philadelphia 76ers",
+      "awayTeam": "Portland Trail Blazers",
+      "homeScore": 111,
+      "awayScore": 128
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-23T00:00:00.000Z",
-      "homeTeam": "Utah Jazz",
-      "awayTeam": "Dallas Mavericks",
-      "homeScore": 114,
+      "startTime": "2026-11-24T00:30:00.000Z",
+      "homeTeam": "Indiana Pacers",
+      "awayTeam": "Oklahoma City Thunder",
+      "homeScore": 125,
+      "awayScore": 120
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-11-24T00:30:00.000Z",
+      "homeTeam": "Toronto Raptors",
+      "awayTeam": "Milwaukee Bucks",
+      "homeScore": 111,
       "awayScore": 116
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-23T01:00:00.000Z",
-      "homeTeam": "New York Knicks",
-      "awayTeam": "Indiana Pacers",
-      "homeScore": 113,
-      "awayScore": 106
+      "startTime": "2026-11-24T00:30:00.000Z",
+      "homeTeam": "Minnesota Timberwolves",
+      "awayTeam": "Brooklyn Nets",
+      "homeScore": 142,
+      "awayScore": 116
     },
     {
       "league": "NBA",
       "status": "Finished",
-      "startTime": "2026-11-23T01:30:00.000Z",
-      "homeTeam": "Golden State Warriors",
-      "awayTeam": "Boston Celtics",
-      "homeScore": 88,
-      "awayScore": 87
+      "startTime": "2026-11-24T01:00:00.000Z",
+      "homeTeam": "Chicago Bulls",
+      "awayTeam": "Cleveland Cavaliers",
+      "homeScore": 122,
+      "awayScore": 108
+    },
+    {
+      "league": "NBA",
+      "status": "Finished",
+      "startTime": "2026-11-24T01:00:00.000Z",
+      "homeTeam": "New Orleans Pelicans",
+      "awayTeam": "Phoenix Suns",
+      "homeScore": 119,
+      "awayScore": 123
     }
   ]
 }
