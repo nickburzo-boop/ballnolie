@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T00:09:17.803Z",
+  "updatedAt": "2026-11-26T08:47:05.035Z",
   "games": [
     {
       "league": "NBA",
@@ -30,12 +30,12 @@
     },
     {
       "league": "NBA",
-      "status": "In Play",
+      "status": "Finished",
       "startTime": "2026-11-25T22:00:00.000Z",
       "homeTeam": "Philadelphia 76ers",
       "awayTeam": "Miami Heat",
-      "homeScore": 100,
-      "awayScore": 86
+      "homeScore": 111,
+      "awayScore": 104
     }
   ]
 }
